@@ -1,0 +1,4 @@
+CREATE TABLE game (
+	game_id INT(4) UNSIGNED NOT NULL PRIMARY KEY,
+	season_number INT(2) UNSIGNED NOT NULL
+	);
