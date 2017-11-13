@@ -1,0 +1,6 @@
+# Python packages used in this project
+
+pandas
+argparse
+logging
+configparser
