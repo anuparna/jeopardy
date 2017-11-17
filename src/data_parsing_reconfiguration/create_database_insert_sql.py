@@ -20,11 +20,11 @@ if __name__ == '__main__':
     # Read SCV files and parse
     # Retrieve questions.csv location from the config
     questions_csv_location = config.get('files', 'questions')
-    print(os.path.realpath(questions_csv_location))
+    #print(os.path.realpath(questions_csv_location))
 
     # Request dataframe of questions.csv
     questions_df = csvr.get_dataframe(questions_csv_location)
-    print(questions_df.describe())
+    #print(questions_df.describe())
 
     # Retrieve contestants.csv location from the config
     contestants_csv_location = config.get('files', 'contestants')

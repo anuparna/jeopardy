@@ -11,11 +11,12 @@ def generate_contestant(df_contestant):
     # remove duplicate player_id rows and clean data
     df_contestant = df_contestant.drop_duplicates(subset=['player_id'], keep='first')
     df_contestant = df_contestant.fillna('')
+    df_contestant = df_contestant.drop_duplicates(subset=['player_first_name', 'player_last_name'], keep='first')
 
     # Generate group of customers with the same occupation.
     contestants_groups = df_contestant.groupby(df_contestant['occupation'])
     occupation_id = 0
-
+    constestant_count = 0
     for occupation_name, group in contestants_groups:
         # Generate SQL for Occupation
         occupation_id = occupation_id + 1
@@ -44,6 +45,7 @@ def generate_contestant(df_contestant):
                                                country_or_state=country_or_state,
                                                occupation_id=occupation_id)
                 player.generate_sql()
+                constestant_count += 1
             else:
                 player = contestant.Contestant(contestant_id=contestant_id,
                                                first_name=first_name,
@@ -52,3 +54,7 @@ def generate_contestant(df_contestant):
                                                country_or_state=country_or_state,
                                                occupation_id=None)
                 player.generate_sql()
+                constestant_count += 1
+
+    print(" No. of occupations to be inserted : ", occupation_id-1)
+    print(" No. of contestants to be inserted : ", constestant_count)
