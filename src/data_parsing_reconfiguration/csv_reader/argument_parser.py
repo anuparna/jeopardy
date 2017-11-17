@@ -4,7 +4,7 @@ import configparser
 
 def argument_parser():
     """
-    Function used to validate and read the command line arguments passed during the execution of create_database_insert_sql.py
+    Function used to validate and read the command line arguments passed during the execution of generate_jeopardy_sql_files.py
     @return: ConfigParser - A Python object representing the elements of the config.ini
     """
     arg_parser = argparse.ArgumentParser(add_help=False)
