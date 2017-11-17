@@ -17,6 +17,7 @@ if __name__ == '__main__':
     # Parse command line arguments
     config = ap.argument_parser()
 
+    # Read SCV files and parse
     # Retrieve questions.csv location from the config
     questions_csv_location = config.get('files', 'questions')
     print(os.path.realpath(questions_csv_location))
@@ -25,9 +26,8 @@ if __name__ == '__main__':
     questions_df = csvr.get_dataframe(questions_csv_location)
     print(questions_df.describe())
 
-    # Retrieve questions.csv location from the config
+    # Retrieve contestants.csv location from the config
     contestants_csv_location = config.get('files', 'contestants')
-    print(os.path.realpath(contestants_csv_location))
-    # Request dataframe of contestants.csv
+    # Request data-frame of contestants.csv
     contestants_df = csvr.get_dataframe(contestants_csv_location)
     rc.generate_contestant(contestants_df)
