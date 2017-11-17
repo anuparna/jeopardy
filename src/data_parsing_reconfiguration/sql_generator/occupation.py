@@ -6,16 +6,17 @@ class Occupation(object):
         occupation_name : name of the occupation
     """
 
-    sql_file = '../sql/insert_scripts/occupation.sql'
 
-    def __init__(self, occupation_id, occupation_name):
+    def __init__(self, occupation_id, occupation_name, file_location):
         """
         Create a new instance of occupation
         @param occupation_id: Primary Id of the occupation
         @param occupation_name: Name of the occupation
+        @param file_location: Location of the .sql file generated from the instance
         """
         self.occupation_id = occupation_id
         self.occupation_name = occupation_name
+        self.sql_file = file_location
 
     def generate_sql(self):
         """

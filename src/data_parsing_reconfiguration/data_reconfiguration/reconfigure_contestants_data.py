@@ -2,10 +2,12 @@ from sql_generator import contestant
 from sql_generator import occupation
 
 
-def generate_contestant(df_contestant):
+def generate_contestant(df_contestant, contestants_sql_location, occupation_sql_location):
     """
     Collect contestant and occupation information from contestants.csv
     @param df_contestant: Contestant data-frame used for reconfiguration
+    @param contestants_sql_location: Location where contestant.sql files need to generated
+    @param occupation_sql_location: Location where occupation.sql files need to generated
     """
 
     # remove duplicate player_id rows and clean data
@@ -16,14 +18,15 @@ def generate_contestant(df_contestant):
     # Generate group of customers with the same occupation.
     contestants_groups = df_contestant.groupby(df_contestant['occupation'])
     occupation_id = 0
-    constestant_count = 0
+    contestant_count = 0
     for occupation_name, group in contestants_groups:
         # Generate SQL for Occupation
         occupation_id = occupation_id + 1
 
         if occupation_name:
             occupation_name = (occupation_name.strip()).replace("'", "\\'")
-            contestant_occupation = occupation.Occupation(occupation_id, occupation_name)
+            contestant_occupation = occupation.Occupation(occupation_id, occupation_name,
+                                                          file_location=occupation_sql_location)
             contestant_occupation.generate_sql()
 
         # Generate SQL for contestant
@@ -43,18 +46,20 @@ def generate_contestant(df_contestant):
                                                last_name=last_name,
                                                home_city=home_city,
                                                country_or_state=country_or_state,
-                                               occupation_id=occupation_id)
+                                               occupation_id=occupation_id,
+                                               file_location=contestants_sql_location)
                 player.generate_sql()
-                constestant_count += 1
+                contestant_count += 1
             else:
                 player = contestant.Contestant(contestant_id=contestant_id,
                                                first_name=first_name,
                                                last_name=last_name,
                                                home_city=home_city,
                                                country_or_state=country_or_state,
-                                               occupation_id=None)
+                                               occupation_id=None,
+                                               file_location=contestants_sql_location)
                 player.generate_sql()
-                constestant_count += 1
+                contestant_count += 1
 
     print(" No. of occupations to be inserted : ", occupation_id-1)
-    print(" No. of contestants to be inserted : ", constestant_count)
+    print(" No. of contestants to be inserted : ", contestant_count)

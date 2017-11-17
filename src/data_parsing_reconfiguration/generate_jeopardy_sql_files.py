@@ -1,5 +1,5 @@
 # The entire process starts from here
-# The config.ini is required to execute this program
+# The input_config.ini is required to execute this program
 
 import sys
 import os
@@ -15,11 +15,11 @@ from data_reconfiguration import reconfigure_contestants_data as rc
 
 if __name__ == '__main__':
     # Parse command line arguments
-    config = ap.argument_parser()
+    input_config, output_config = ap.argument_parser()
 
     # Read SCV files and parse
     # Retrieve questions.csv location from the config
-    questions_csv_location = config.get('files', 'questions')
+    questions_csv_location = input_config.get('files', 'questions')
     #print(os.path.realpath(questions_csv_location))
 
     # Request dataframe of questions.csv
@@ -27,7 +27,9 @@ if __name__ == '__main__':
     #print(questions_df.describe())
 
     # Retrieve contestants.csv location from the config
-    contestants_csv_location = config.get('files', 'contestants')
+    contestants_csv_location = input_config.get('files', 'contestants')
+    contestants_sql_location = output_config.get('files', 'contestants')
+    occupation_sql_location = output_config.get('files', 'occupations')
     # Request data-frame of contestants.csv
     contestants_df = csvr.get_dataframe(contestants_csv_location)
-    rc.generate_contestant(contestants_df)
+    rc.generate_contestant(contestants_df, contestants_sql_location, occupation_sql_location)
