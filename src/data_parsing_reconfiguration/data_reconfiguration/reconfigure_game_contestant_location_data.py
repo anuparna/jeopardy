@@ -57,7 +57,7 @@ def generate_contestant_location(df_contestant_loc, input_config, output_config)
     for index, row in df_player_loc.iterrows():
         location = contestant_location.ContestantLocation(game_id=row['game_id'],
                                                           contestant_id=row['player_id'],
-                                                          seat_location=row['seat_location'],
+                                                          seat_location=row['seat_location'].strip(),
                                                           file_location=contestant_loc_sql_location)
         location.generate_sql(contestant_loc_entity_definition)
         loc_counter += 1
