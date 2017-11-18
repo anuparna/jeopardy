@@ -28,8 +28,7 @@ if __name__ == '__main__':
 
     # Retrieve contestants.csv location from the config
     contestants_csv_location = input_config.get('files', 'contestants')
-    contestants_sql_location = output_config.get('files', 'contestants')
-    occupation_sql_location = output_config.get('files', 'occupations')
+
     # Request data-frame of contestants.csv
     contestants_df = csvr.get_dataframe(contestants_csv_location)
-    rc.generate_contestant(contestants_df, contestants_sql_location, occupation_sql_location)
+    rc.generate_contestant(contestants_df, input_config, output_config)

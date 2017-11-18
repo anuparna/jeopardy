@@ -2,13 +2,21 @@ from sql_generator import contestant
 from sql_generator import occupation
 
 
-def generate_contestant(df_contestant, contestants_sql_location, occupation_sql_location):
+def generate_contestant(df_contestant, input_config, output_config):
     """
     Collect contestant and occupation information from contestants.csv
     @param df_contestant: Contestant data-frame used for reconfiguration
-    @param contestants_sql_location: Location where contestant.sql files need to generated
-    @param occupation_sql_location: Location where occupation.sql files need to generated
+    @param input_config: Input configuration
+    @param output_config: Output configuration
     """
+
+    # get location of output files
+    contestants_sql_location = output_config.get('files', 'contestants')
+    occupation_sql_location = output_config.get('files', 'occupations')
+
+    # get entity definition
+    contestant_entity_definition = input_config.get('entities', 'contestant')
+    occupation_entity_definition = input_config.get('entities', 'occupation')
 
     # remove duplicate player_id rows and clean data
     df_contestant = df_contestant.drop_duplicates(subset=['player_id'], keep='first')
@@ -27,7 +35,7 @@ def generate_contestant(df_contestant, contestants_sql_location, occupation_sql_
             occupation_name = (occupation_name.strip()).replace("'", "\\'")
             contestant_occupation = occupation.Occupation(occupation_id, occupation_name,
                                                           file_location=occupation_sql_location)
-            contestant_occupation.generate_sql()
+            contestant_occupation.generate_sql(entity_definition=occupation_entity_definition)
 
         # Generate SQL for contestant
         no_of_contestants = len(group)
@@ -48,7 +56,7 @@ def generate_contestant(df_contestant, contestants_sql_location, occupation_sql_
                                                country_or_state=country_or_state,
                                                occupation_id=occupation_id,
                                                file_location=contestants_sql_location)
-                player.generate_sql()
+                player.generate_sql(entity_definition=contestant_entity_definition)
                 contestant_count += 1
             else:
                 player = contestant.Contestant(contestant_id=contestant_id,
@@ -58,7 +66,7 @@ def generate_contestant(df_contestant, contestants_sql_location, occupation_sql_
                                                country_or_state=country_or_state,
                                                occupation_id=None,
                                                file_location=contestants_sql_location)
-                player.generate_sql()
+                player.generate_sql(entity_definition=contestant_entity_definition)
                 contestant_count += 1
 
     print(" No. of occupations to be inserted : ", occupation_id-1)
