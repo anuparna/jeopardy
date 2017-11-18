@@ -2,7 +2,7 @@ from sql_generator import contestant
 from sql_generator import occupation
 
 
-def generate_contestant(df_contestant, input_config, output_config):
+def generate_contestant_and_occupation(df_contestant, input_config, output_config):
     """
     Collect contestant and occupation information from contestants.csv
     @param df_contestant: Contestant data-frame used for reconfiguration
