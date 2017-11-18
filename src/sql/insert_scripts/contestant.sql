@@ -197,7 +197,6 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (3353, 'Shelley', 'Forbess', 'El Dorado', 'Arkansas', 21);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (10605, 'Chris', 'Tempro', 'Allentown', 'Pennsylvania', 22);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (7817, 'Kareem', 'Abdul-Jabbar', '', '', 23);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (6419, 'Kareem', 'Abdul-Jabbar', '', '', 23);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2627, 'Greg', 'Powell', 'Calhoun', 'Georgia', 24);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (5617, 'Joe', 'Ingoglia', 'Bellingham', 'Washington', 25);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (7277, 'J.D.', 'Lopez', 'West Hartford', 'Connecticut', 26);
@@ -324,7 +323,6 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (5080, 'Joe', 'Parodi', 'Thompson', 'Connecticut', 122);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (3388, 'Ben', 'Kroll', 'Sheboygan', 'Wisconsin', 122);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (287, 'Leslie', 'Frates', 'Hayward', 'California', 122);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (1139, 'Leslie', 'Frates', 'Hayward', 'California', 122);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (7303, 'Mary', 'Mitchell', 'Washington', 'D.C.', 123);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (8730, 'Emily', 'Horne', 'Washington', 'D.C.', 124);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (4627, 'Lisa', 'Fritsche', 'Columbia', 'Missouri', 125);
@@ -336,9 +334,7 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (7818, 'Chris', 'Wallace', '', '', 131);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (7816, 'Dana', 'Perino', '', '', 131);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (7814, 'Chris', 'Matthews', '', '', 131);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (6697, 'Chris', 'Matthews', '', '', 131);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2776, 'Regis', 'Philbin', '', '', 131);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (3194, 'Chris', 'Matthews', '', '', 131);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2775, 'Nancy', 'Grace', '', '', 132);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (7162, 'Carrie', 'Oken', 'New York', 'New York', 133);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (3279, 'Kelly', 'Isenor', 'Boston', 'Massachusetts', 134);
@@ -574,7 +570,6 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (9395, 'Steve', 'Stone', 'North Wildwood', 'New Jersey', 267);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (5454, 'Tom', 'Guymon', 'Anaheim', 'California', 267);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2759, 'Mark', 'Dawson', 'Chamblee', 'Georgia', 267);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (870, 'Mark', 'Dawson', 'Chamblee', 'Georgia', 267);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (10017, 'Lawrence', 'Dernulc', 'Salisbury', 'Maryland', 268);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (7668, 'Bruce', 'Vale', 'Newark', 'Delaware', 269);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (9305, 'Philip', 'Cramer', 'Sherman Oaks', 'California', 270);
@@ -783,7 +778,6 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (9021, 'Rebecca', 'Baird', 'Thousand Oaks', 'California', 428);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (10360, 'Sandro', 'Marchegiani', 'Windber', 'Pennsylvania', 429);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (10270, 'Andrew', 'Haringer', 'Squamish', 'British Columbia', 429);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (9835, 'Andrew', 'Haringer', 'Squamish', 'British Columbia', 429);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (9838, 'Mary', 'Green', 'Milton', 'Georgia', 429);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (5763, 'Greg', 'Jones', 'Chincoteague Island', 'Virginia', 429);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (4570, 'Angela', 'Ruediger', 'Lemoyne', 'Pennsylvania', 429);
@@ -864,7 +858,6 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2769, 'Eric', 'Floyd', 'Calhoun', 'Georgia', 447);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2767, 'Kyle', 'Hale', 'Katy', 'Texas', 447);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (5776, 'Elizabeth', 'Baxter', 'Broken Arrow', 'Oklahoma', 447);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (3122, 'Eric', 'Floyd', 'Calhoun', 'Georgia', 447);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (3120, 'Meagan', 'Shelton', 'Durant', 'Oklahoma', 447);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2224, 'Scott', 'Olsen', 'San Diego', 'California', 447);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2052, 'Pam', 'Mueller', 'Wilmette', 'Illinois', 447);
@@ -958,7 +951,6 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2821, 'Paul', 'Shaffer', '', '', 503);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (4167, 'Adam', 'Blau', 'Los Angeles', 'California', 504);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (4369, 'Doug', 'Hicton', 'Regina', 'Saskatchewan', 505);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (3595, 'Doug', 'Hicton', 'Regina', 'Saskatchewan', 505);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (11003, 'Kat!', 'Kat Lewin', 'Irvine', 'California', 506);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (4338, 'Sharon', 'Glickman', 'Coral Springs', 'Florida', 507);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (4444, 'Pat', 'Grady', 'Palatine', 'Illinois', 508);
@@ -1042,7 +1034,6 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2116, 'Gerald', 'Bergen', 'Philadelphia', 'Pennsylvania', 545);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (6643, 'Michael', 'Berthold', 'Lowell', 'Wisconsin', 545);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (5620, 'Anthony', 'Trifilio', 'Brooklyn', 'New York', 545);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2923, 'Anthony', 'Trifilio', 'Brooklyn', 'New York', 545);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (11049, 'Hobie', 'Barnes', 'Glendale', 'California', 546);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (10210, 'Martin', 'Schmidt', 'Media', 'Pennsylvania', 546);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (9524, 'Jared', 'Hall', 'Washington', 'D.C.', 546);
@@ -1206,7 +1197,6 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (9505, 'Aric', 'Wiest', 'Kansas City', 'Missouri', 639);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (1513, 'Cynthia', 'Pearson', 'Los Angeles', 'California', 640);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (10274, 'Alex', 'Jacob', 'Chicago', 'Illinois', 641);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (9792, 'Alex', 'Jacob', 'Chicago', 'Illinois', 641);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (8098, 'Rachel', 'Shuman', 'Silver Spring', 'Maryland', 642);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (9688, 'Ravi', 'Subramanian', 'Lexington', 'Kentucky', 643);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (6493, 'Røb', 'Severson', 'St. Louis', 'Missouri', 644);
@@ -1490,7 +1480,6 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (7795, 'Kevin', 'Rowe', 'Chicago', 'Illinois', 841);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (3631, 'Matt', 'Sojot', 'Mililani', 'Hawaii', 841);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (3562, 'Doug', 'Tibbs', 'Columbus', 'Ohio', 841);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (1992, 'Matt', 'Sojot', 'Mililani', 'Hawaii', 841);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (6494, 'Rich', 'Quigley', 'Milwaukee', 'Wisconsin', 841);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (6330, 'Chris', 'Serb', 'Chicago', 'Illinois', 841);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (8055, 'Diana', 'North', 'Rock Hill', 'South Carolina', 842);
@@ -1772,7 +1761,6 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (5931, 'Larissa', 'Kelly', 'El Cerrito', 'California', 1025);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (5767, 'Fayaz', 'Kabani', 'Columbia', 'South Carolina', 1025);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (5017, 'Dino', 'Buenviaje', 'Riverside', 'California', 1025);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (4956, 'Larissa', 'Kelly', 'El Cerrito', 'California', 1025);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (3769, 'Mehrun', 'Etebari', 'Durham', 'New Hampshire', 1025);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (3637, 'Daniel', 'Pollack-Pelzner', 'Cambridge', 'Massachusetts', 1025);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (3629, 'Jen', 'Benedict', 'Fredericksburg', 'Virginia', 1025);
@@ -1865,7 +1853,6 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (9323, 'Molly', 'Strothmann', 'Norman', 'Oklahoma', 1036);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (9306, 'Celeste', 'Walker', 'Washington', 'D.C.', 1036);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (6304, 'Mike', 'Garabedian', 'Whittier', 'California', 1036);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (6301, 'Russ', 'Schumacher', 'Fort Collins', 'Colorado', 1036);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (6306, 'Katie', 'Durham', 'Portland', 'Oregon', 1036);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (4101, 'Sam', 'Ott', 'Los Angeles', 'California', 1036);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (5496, 'Rob', 'Latimer', 'Royal Oak', 'Michigan', 1036);
@@ -2329,7 +2316,6 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (4428, 'Ralph', 'Dellanno', 'Edison', 'New Jersey', 1244);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (7197, 'Sean', 'Priest', 'San Francisco', 'California', 1245);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (8186, 'Colby', 'Burnett', 'Chicago', 'Illinois', 1246);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (8057, 'Colby', 'Burnett', 'Chicago', 'Illinois', 1246);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (10692, 'Rick', 'Doyon', 'Somerville', 'Massachusetts', 1247);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (9383, 'Matthew', 'Price', 'East Providence', 'Rhode Island', 1247);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (7261, 'Barry', 'Cohen', 'San Diego', 'California', 1248);
@@ -2349,11 +2335,9 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (10152, 'Kevin', 'Butterfield', 'Norman', 'Oklahoma', 1262);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (8997, 'Stephanie', 'Jass', 'Milan', 'Michigan', 1262);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (8944, 'Babu', 'Srinivasan', 'Cypress', 'Texas', 1262);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (8185, 'Stephanie', 'Jass', 'Milan', 'Michigan', 1262);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (8012, 'Stephanie', 'Jass', 'Milan', 'Michigan', 1262);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (6802, 'Chris', 'Staaf', 'Dallas', 'Georgia', 1262);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (297, 'Babu', 'Srinivasan', 'Houston', 'Texas', 1262);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2051, 'Babu', 'Srinivasan', 'Houston', 'Texas', 1262);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (300, 'Jim', 'Holton', 'Lakeland', 'Florida', 1262);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (3031, 'Lisa', 'McClain', 'Boise', 'Idaho', 1263);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (1152, 'Babu', 'Srinivasan', 'Houston', 'Texas', 1264);
@@ -2467,7 +2451,6 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (8458, 'Erin', 'Murphy', 'Villa Hills', 'Kentucky', 1308);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (10251, 'Sam', 'Stubblefield', 'Wilmington', 'Delaware', 1309);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (10640, 'Anderson', 'Cooper', '', '', 1310);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (5213, 'Anderson', 'Cooper', '', '', 1310);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (6214, 'Paige', 'Davis', '', '', 1311);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (6734, 'Kyle', 'Mathews', 'Imperial Beach', 'California', 1312);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (8351, 'Bill', 'Hawkins', 'New York', 'New York', 1313);
@@ -2839,7 +2822,6 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (5091, 'Arianna', 'Kelly', 'Somerville', 'Massachusetts', 1455);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (4744, 'Trevor', 'Burrus', 'Centennial', 'Colorado', 1455);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (4727, 'Ashok', 'Rau', 'Los Angeles', 'California', 1455);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (4622, 'Arianna', 'Kelly', 'Somerville', 'Massachusetts', 1455);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (4595, 'Emily', 'Ullman', 'Palisades', 'New York', 1455);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (4478, 'Sean', 'Smith', 'Austin', 'Texas', 1455);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (4408, 'Kate', 'Swenson', 'Minneapolis', 'Minnesota', 1455);
@@ -3010,7 +2992,6 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (7142, 'Melissa', 'Nilles', 'Kapolei', 'Hawaii', 1491);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (6407, 'Abra', 'Belke', 'Butte', 'Montana', 1491);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (5925, 'Dan', 'Pawson', 'Boston', 'Massachusetts', 1491);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (4509, 'Dan', 'Pawson', 'Boston', 'Massachusetts', 1491);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (3590, 'Debbie', 'Harris', 'Brooklyn', 'New York', 1492);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (9471, 'Emma', 'King', 'Washington', 'D.C.', 1493);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (5415, 'Jenny', 'Miller', 'Arlington', 'Virginia', 1494);
@@ -3264,7 +3245,6 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (6382, 'Deborah', 'White', 'Woodstock', 'Georgia', 1625);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (9343, 'Bernadette', 'Price', 'Mahopac', 'New York', 1625);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (9322, 'Neal', 'Racioppo', 'Washington', 'D.C.', 1625);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (631, 'Doug', 'Lach', 'Columbus', 'Ohio', 1625);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (3038, 'Philip', 'Hain', 'Glendale', 'California', 1625);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (3240, 'Stephen', 'Mitchell', 'Los Angeles', 'California', 1625);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (3674, 'Dan', 'Felsenheld', 'Arlington', 'Virginia', 1625);
@@ -3374,7 +3354,6 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (4614, 'Kate', 'Pedersen', 'Springfield', 'Illinois', 1692);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (1959, 'Vik', 'Vaz', 'Austin', 'Texas', 1692);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (1536, 'Eleanor', 'Ainslie', 'Philadelphia', 'Pennsylvania', 1692);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (1306, 'Vik', 'Vaz', 'Austin', 'Texas', 1692);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (50, 'Matt', 'Kleinmaier', 'Chicago', 'Illinois', 1692);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (5290, 'Juan Carlos', 'Batlle', 'Philadelphia', 'Pennsylvania', 1692);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (5641, 'Erica', 'Weinberg', 'Oceanside', 'New York', 1692);
@@ -3390,7 +3369,6 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (8083, 'Cara', 'Harley', 'Charlestown', 'Massachusetts', 1696);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (8543, 'Jonathan', 'Couser', 'Lee', 'New Hampshire', 1697);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (6977, 'Scott', 'Wells', 'Los Angeles', 'California', 1698);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (6489, 'Scott', 'Wells', 'Los Angeles', 'California', 1698);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (3606, 'Bill', 'Gabbard', 'Arnold', 'Maryland', 1699);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (3658, 'Pam', 'Spitzner', 'Chicago', 'Illinois', 1700);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (9474, 'Deb', 'Williams', 'Hudson', 'Ohio', 1701);
@@ -3400,7 +3378,6 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2603, 'Nancy', 'Huettner', 'Manchester', 'New Hampshire', 1705);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (8848, 'Lee', 'May', 'Roanoke', 'Virginia', 1706);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (1964, 'Michael', 'Falk', 'Milwaukee', 'Wisconsin', 1707);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (1804, 'Michael', 'Falk', 'Milwaukee', 'Wisconsin', 1707);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (9329, 'John', 'Haynes', 'Alexandria', 'Virginia', 1707);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (5201, 'Teresa', 'Peachey', 'Silver Spring', 'Maryland', 1707);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (8291, 'Ryan', 'Truchelut', 'Tallahassee', 'Florida', 1708);
@@ -3539,13 +3516,11 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (5682, 'Gay', 'Chun', 'North Granby', 'Connecticut', 1794);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (659, 'Rick', 'Knutsen', 'Brooklyn', 'New York', 1794);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (3163, 'David', 'Thorne Scott', 'Somerville', 'Massachusetts', 1794);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (3047, 'Rick', 'Knutsen', 'Brooklyn', 'New York', 1794);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (3226, 'Gary', 'Laing', 'Spokane', 'Washington', 1794);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (4540, 'Peter', 'Brown', 'Brooklyn', 'New York', 1795);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (6415, 'James', 'Rogers', 'Washington', 'D.C.', 1796);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (3511, 'Shasa', 'Dobrow', 'Vancouver', 'Washington', 1797);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (8954, 'Dave', 'Abbott', 'Fort Thomas', 'Kentucky', 1798);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (565, 'Dave', 'Abbott', 'Fort Thomas', 'Kentucky', 1798);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (530, 'Rick', 'Knutsen', 'Brooklyn', 'New York', 1799);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (3783, 'Phil', 'Cunneff', 'Baltimore', 'Maryland', 1800);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (7857, 'Dylan', 'Hume', 'Sleepy Hollow', 'New York', 1801);
@@ -3574,7 +3549,6 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (9754, 'Darren', 'Shea', 'Kyle', 'Texas', 1817);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (5226, 'Cindy', 'Reilly', 'Oakton', 'Virginia', 1817);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (690, 'Brad', 'Rutter', 'Lancaster', 'Pennsylvania', 1817);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (629, 'Brad', 'Rutter', 'Lancaster', 'Pennsylvania', 1817);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (3058, 'Steve', 'Deitsch', 'Boca Raton', 'Florida', 1817);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (4485, 'Roland', 'Hess', 'Pittsburgh', 'Pennsylvania', 1817);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2633, 'Mike', 'Blumenfeld', 'Minneapolis', 'Minnesota', 1817);
@@ -3605,7 +3579,6 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (6379, 'Lynn', 'Swanbom', 'Spokane', 'Washington', 1837);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (545, 'Bob', 'Fleenor', 'Martinsburg', 'West Virginia', 1837);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (3508, 'Carol', 'Schlau', 'Buffalo', 'New York', 1837);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (630, 'Bob', 'Fleenor', 'Martinsburg', 'West Virginia', 1837);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (3007, 'Bob', 'Fleenor', 'Martinsburg', 'West Virginia', 1837);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (923, 'Mark', 'Stacy', 'Morgantown', 'West Virginia', 1837);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (6943, 'Pamela', 'Nelson', 'Clayton', 'North Carolina', 1838);
@@ -3673,7 +3646,6 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (6573, 'Stephen', 'Weingarten', 'Portland', 'Oregon', 1889);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (6706, 'Aimee', 'deLaricheliere', 'Burlington', 'Vermont', 1889);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (10266, 'Matt', 'Jackson', 'Washington', 'D.C.', 1890);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (10171, 'Matt', 'Jackson', 'Washington', 'D.C.', 1890);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (8940, 'Claire', 'Tuley', 'Chattanooga', 'Tennessee', 1890);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (8362, 'Jody', 'Carlson', 'Fairfax', 'Virginia', 1890);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (8311, 'Katie', 'Newcomb', 'Washington', 'D.C.', 1890);
@@ -4098,7 +4070,6 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (9426, 'Chuck', 'Ladd', 'Raleigh', 'North Carolina', 2120);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (5513, 'A.V.', 'Greene', 'Durham', 'North Carolina', 2120);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2756, 'Brian', 'Weikle', 'Minneapolis', 'Minnesota', 2120);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (1751, 'Brian', 'Weikle', 'Minneapolis', 'Minnesota', 2120);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2940, 'Susan', 'McCormick', 'Wynnewood', 'Pennsylvania', 2120);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2053, 'Andrew', 'Garen', 'Austin', 'Texas', 2120);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (3089, 'Robin', 'O\'Brien', 'New York City', 'New York', 2120);
@@ -4424,7 +4395,6 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (112, 'Lisa', 'Buckhout', 'Niagara Falls', 'New York', 2312);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (9006, 'Keith', 'Whitener', 'Washington', 'D.C.', 2313);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (8197, 'Keith', 'Whitener', 'Charlotte', 'North Carolina', 2314);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (8036, 'Keith', 'Whitener', 'Charlotte', 'North Carolina', 2314);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (7382, 'Nick', 'Condon', 'Lakewood', 'Colorado', 2314);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (5679, 'Alex', 'Gershman', 'Falls Church', 'Virginia', 2315);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (7254, 'Duncan', 'Stewart', 'Toronto', 'Ontario', 2316);
@@ -4500,7 +4470,6 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2628, 'Lisa', 'Andrus', 'Tyler', 'Texas', 2348);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (443, 'Chris', 'Miller', 'Louisville', 'Kentucky', 2349);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (33, 'Chris', 'Miller', 'Louisville', 'Kentucky', 2349);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (6290, 'Chris', 'Miller', 'Louisville', 'Kentucky', 2349);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (10336, 'Liz', 'Quesnelle', 'Pittsburgh', 'Pennsylvania', 2350);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (9867, 'Lenny', 'Porges', 'Tucson', 'Arizona', 2351);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (4905, 'Tom', 'Morris', 'Irvine', 'California', 2352);
@@ -5072,7 +5041,6 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (1116, 'Susan', 'Daniels', 'Bristol', 'Rhode Island', 2636);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (661, 'Ken', 'Jennings', 'Salt Lake City', 'Utah', 2636);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (136, 'Robert', 'Bowsher', 'Hilliard', 'Ohio', 2636);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (1, 'Ken', 'Jennings', 'Salt Lake City', 'Utah', 2636);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (6376, 'Glenn', 'Howes', 'Nashua', 'New Hampshire', 2636);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (6551, 'Patrick', 'Macaraeg', 'Largo', 'Florida', 2636);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2763, 'Travis', 'Troyer', 'Hereford', 'Maryland', 2636);
@@ -5259,7 +5227,6 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (8943, 'Eddie', 'Timanus', 'Oak Hill', 'Virginia', 2715);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (6988, 'Jelisa', 'Castrodale', 'Winston-Salem', 'North Carolina', 2715);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (1342, 'James', 'Quintong', 'Atlanta', 'Georgia', 2715);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (468, 'Eddie', 'Timanus', 'Oak Hill', 'Virginia', 2715);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2644, 'Eddie', 'Timanus', 'Arlington', 'Virginia', 2715);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (439, 'Eddie', 'Timanus', 'Reston', 'Virginia', 2715);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (7494, 'Katie', 'Baker', 'Mount Vernon', 'Ohio', 2716);
@@ -5400,7 +5367,6 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (10978, 'Yoey', 'Sacks', 'New York', 'New York', 2753);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (8433, 'Katrina', 'Whitehead', 'Sandston', 'Virginia', 2754);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (8196, 'Kristin', 'Morgan', 'Huntsville', 'Alabama', 2755);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (8141, 'Kristin', 'Morgan', 'Huntsville', 'Alabama', 2755);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (9081, 'Lara', 'Brenckle Malmont', 'Carlisle', 'Pennsylvania', 2756);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (3305, 'Mike', 'Zarren', 'Chicago', 'Illinois', 2757);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (11280, 'Andrea', 'Palmiter', 'Woodinville', 'Washington', 2758);
@@ -5657,8 +5623,6 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2196, 'Jeff', 'Knorr', 'Waterford', 'New York', 2855);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2067, 'Stefanie', 'Morales', 'Fair Lawn', 'New Jersey', 2855);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2005, 'Ken', 'Hinton', 'Las Vegas', 'Nevada', 2855);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (1991, 'Karla', 'Sortland', 'Las Vegas', 'Nevada', 2855);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (1949, 'Maria', 'Wenglinsky', 'Brooklyn', 'New York', 2855);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (1888, 'Jacqueline', 'Lovell', 'Santa Barbara', 'California', 2855);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (1817, 'Peggy', 'Till', 'Arlington', 'Texas', 2855);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (1807, 'Rory', 'Cowan', 'Long Beach', 'California', 2855);
@@ -6226,7 +6190,6 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (927, 'Oscar', 'Avila', 'Chicago', 'Illinois', 3161);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (361, 'Jerome', 'Vered', 'Los Angeles', 'California', 3161);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (510, 'Eugene', 'Finerman', 'Northbrook', 'Illinois', 3161);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (310, 'Bob', 'Harris', 'Los Angeles', 'California', 3161);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (594, 'Tom', 'Walsh', 'Washington', 'D.C.', 3161);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (138, 'Snow', 'Tempest', 'Los Angeles', 'California', 3161);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (27, 'Tom', 'Walsh', 'Washington', 'D.C.', 3161);
@@ -6239,7 +6202,6 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (6671, 'Grace', 'Suh', 'New York', 'New York', 3161);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (6534, 'Lorraine', 'Stalberg', 'Malibu', 'California', 3161);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (6483, 'Joanne', 'Casey', 'Santa Monica', 'California', 3161);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (6207, 'Tom', 'Walsh', 'Washington', 'D.C.', 3161);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (9328, 'Steve', 'Schneider', 'Los Angeles', 'California', 3161);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (9304, 'Kathy', 'Chappell', 'Burke', 'Virginia', 3161);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (6322, 'Steve', 'Altes', 'Burbank', 'California', 3161);
@@ -6255,7 +6217,6 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (3781, 'Mike', 'Goldstein', 'Studio City', 'California', 3161);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2634, 'Jeremy', 'Bate', 'Los Angeles', 'California', 3161);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (3310, 'Jason', 'Avant', 'San Diego', 'California', 3161);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (3326, 'Jeremy', 'Bate', 'Los Angeles', 'California', 3161);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (4325, 'Brenda', 'Shafer', 'Glendale', 'California', 3161);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (3468, 'June', 'Murphy', 'Champaign', 'Illinois', 3161);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (5562, 'Chris', 'Espe', 'Hollywood', 'California', 3162);
@@ -6502,7 +6463,6 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (4217, 'Rita', 'Byrd', 'Washington', 'D.C.', 3268);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (114, 'Philip', 'Graves', 'Somerset', 'New Jersey', 3268);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (8522, 'Ben', 'Ingram', 'Florence', 'South Carolina', 3269);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (9511, 'Ben', 'Ingram', 'Florence', 'South Carolina', 3269);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (5401, 'Mark', 'Raabe', 'Coon Rapids', 'Minnesota', 3270);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (5358, 'Carlo', 'Uchello', 'Alexandria', 'Virginia', 3270);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (5971, 'Nancy', 'Gow', 'Oakton', 'Virginia', 3271);
@@ -6622,9 +6582,7 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2815, 'Stokes', 'Brian  Mitchell', '', '', 3328);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2812, 'Miguel', 'Ferrer', '', '', 3328);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2813, 'Steve', 'Schirripa', '', '', 3328);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2805, 'Neil', 'Patrick Harris', '', '', 3328);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2807, 'James', 'Denton', '', '', 3328);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2779, 'Doug', 'Savant', '', '', 3328);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2552, 'Cathleen', 'Charleson', 'Greeneville', 'Tennessee', 3328);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2355, 'Scott', 'Ahearn', 'the Bronx', 'New York', 3328);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (6225, 'Joshua', 'Malina', '', '', 3328);
@@ -6696,10 +6654,8 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (6793, 'CC', 'H Pounder', '', '', 3354);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (6635, 'Elizabeth', 'Perkins', '', '', 3354);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (6344, 'Dana', 'Delany', '', '', 3354);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (5926, 'Elizabeth', 'Perkins', '', '', 3354);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2822, 'Susan', 'Lucci', '', '', 3354);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2818, 'Joely', 'Fisher', '', '', 3354);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2816, 'Dana', 'Delany', '', '', 3354);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2806, 'Bebe', 'Neuwirth', '', '', 3354);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2781, 'Kathryn', 'Erbe', '', '', 3354);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (6226, 'CCH', 'Pounder', '', '', 3354);
@@ -6708,7 +6664,6 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (6218, 'Vivica', 'A. Fox', '', '', 3354);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (6216, 'Julie', 'Bowen', '', '', 3354);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (6152, 'Jane', 'Krakowski', '', '', 3354);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (6147, 'Dana', 'Delany', '', '', 3354);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (5504, 'Erika', 'Amato', 'Los Angeles', 'California', 3355);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (4104, 'Jackie', 'Wollner', 'Van Nuys', 'California', 3356);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (10297, 'Joyce', 'Hshieh', 'Chicago', 'Illinois', 3357);
@@ -6954,7 +6909,6 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (5794, 'Melinda', 'Hautala', 'Lexington', 'Kentucky', 3476);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (1962, 'Bob', 'Mesko', 'Denver', 'Colorado', 3476);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (1859, 'Bob', 'Mesko', 'Denver', 'Colorado', 3476);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (1512, 'Bob', 'Mesko', 'Denver', 'Colorado', 3476);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (5245, 'Ian', 'Buckwalter', 'Washington', 'D.C.', 3476);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (7792, 'Jacob', 'Silverman', 'Brooklyn', 'New York', 3477);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (10330, 'Mark', 'Blankenship', 'New York', 'New York', 3478);
@@ -7179,7 +7133,6 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (1477, 'Chris', 'Casper', 'Tampa', 'Florida', 3540);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (1432, 'Joseph', 'Willis', 'Louisville', 'Kentucky', 3540);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (1328, 'Michael', 'Levitin', 'Arlington', 'Virginia', 3540);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (1285, 'Bill', 'MacDonald', 'Bonita Springs', 'Florida', 3540);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (1299, 'Robert', 'J. Lee', 'Seattle', 'Washington', 3540);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (1223, 'Philip', 'Huang', 'Irvine', 'California', 3540);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (1199, 'John', 'Kelly', 'Atlanta', 'Georgia', 3540);
@@ -7196,7 +7149,6 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (338, 'Michael', 'Dupée', 'Gainesville', 'Florida', 3540);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (506, 'Brad', 'Plovan', 'Baltimore', 'Maryland', 3540);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (425, 'Michael', 'Day', 'Mill Valley', 'California', 3540);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (362, 'Jim', 'Scott', 'Arlington', 'Virginia', 3540);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (340, 'Billy', 'Baxter', 'Richmond', 'Virginia', 3540);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (309, 'Tom', 'Cubbage', 'Oklahoma City', 'Oklahoma', 3540);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (201, 'Inez', 'Friedman-Boyce', 'Newton', 'Massachusetts', 3540);
@@ -7241,7 +7193,6 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2366, 'Harrison', 'Bell', 'Charleston', 'South Carolina', 3540);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (3526, 'Amy', 'Choyke', 'Pearland', 'Texas', 3540);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (3521, 'Ben', 'Bass', 'Chicago', 'Illinois', 3540);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2926, 'Richard', 'Finch', 'Dearborn Heights', 'Michigan', 3540);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2828, 'Jill', 'Futch', 'West Monroe', 'Louisiana', 3540);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2320, 'Doug', 'Plazak', 'Anaheim Hills', 'California', 3540);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2199, 'Mike', 'Rohan', 'Orland Park', 'Illinois', 3540);
@@ -7270,7 +7221,6 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2601, 'Paul', 'Smith', 'Sutton', 'Massachusetts', 3540);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (3693, 'Rick', 'Schweitzer', 'Alexandria', 'Virginia', 3540);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (3681, 'Peter', 'Dunne', 'New York City', 'New York', 3540);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (2063, 'Tad', 'Carithers', 'Atlanta', 'Georgia', 3540);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (4267, 'Bill', 'McCormick', 'Corona del Mar', 'California', 3540);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (4127, 'Donna', 'Malcomb', 'Atlanta', 'Georgia', 3540);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (4120, 'Tony', 'Burrell', 'Austell', 'Georgia', 3540);
@@ -7560,7 +7510,6 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (11260, 'Adam', 'Vesterholt', 'Brooklyn', 'New York', 3686);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (10961, 'Jeremy', 'Zarowitz', 'Oak Park', 'California', 3687);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (6838, 'Jason', 'Zollinger', 'South Dayton', 'New York', 3688);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (6612, 'Jason', 'Zollinger', 'South Dayton', 'New York', 3688);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (11111, 'Sean', 'Harrington', 'Houston', 'Texas', 3689);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (11054, 'Ryan', 'O\'Shea', 'Hermosa Beach', 'California', 3689);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (10371, 'Steve', 'Belding', 'Knoxville', 'Tennessee', 3689);
@@ -7714,7 +7663,6 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (10332, 'Kiyana', 'Holderbaum', 'Long Beach', 'California', 3781);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (619, 'Robin', 'Carroll', 'Marietta', 'Georgia', 3781);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (5742, 'Diane', 'Eads', 'Salem', 'Oregon', 3781);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (1154, 'Robin', 'Carroll', 'Marietta', 'Georgia', 3781);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (3220, 'Robin', 'Carroll', 'Marietta', 'Georgia', 3781);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (8951, 'Robin', 'Carroll', 'Atlanta', 'Georgia', 3782);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (11214, 'Crista', 'Calderon', 'Spokane', 'Washington', 3783);
@@ -7859,7 +7807,6 @@ INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (4095, 'John', 'Boyle', 'Westfield', 'New Jersey', 3887);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (8104, 'Susan', 'Jann', 'Bristol', 'Pennsylvania', 3888);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (7555, 'Buddy', 'Wright', 'Fort Worth', 'Texas', 3889);
-INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (6819, 'Buddy', 'Wright', 'Fort Worth', 'Texas', 3889);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (10165, 'Mai', 'Kulkarni', 'Macon', 'Georgia', 3890);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (10147, 'Rook', 'Thomas Hine', 'Brunswick', 'Maine', 3890);
 INSERT INTO contestant(contestant_id, first_name, last_name, home_city, country_or_state, occupation_id) VALUES (9860, 'Laurie', 'McNeill', 'Orlando', 'Florida', 3890);

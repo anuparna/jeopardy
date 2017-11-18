@@ -21,7 +21,8 @@ def generate_contestant_and_occupation(df_contestant, input_config, output_confi
     # remove duplicate player_id rows and clean data
     df_contestant = df_contestant.drop_duplicates(subset=['player_id'], keep='first')
     df_contestant = df_contestant.fillna('')
-    df_contestant = df_contestant.drop_duplicates(keep='first')
+    df_contestant = df_contestant.drop_duplicates(df_contestant.columns.difference(['player_id']),
+                                                  keep='first')
 
     # Generate group of customers with the same occupation.
     contestants_groups = df_contestant.groupby(df_contestant['occupation'])
