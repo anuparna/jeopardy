@@ -13,5 +13,32 @@ The dataset consists of 5 CSV files. <br/>
 The dataset is available at <a href="https://github.com/anuparna/jeopardy/tree/master/dataset">here</a>.<br/>
 Path: ```jeopardy/dataset```
 
-## System Architecture
+Entity Relationship Diagram is avalable <a href="https://raw.githubusercontent.com/anuparna/jeopardy/master/docs/ER_Diagram.pdf">here</a>.
 
+## System Architecture
+![System Architecture](https://raw.githubusercontent.com/anuparna/jeopardy/master/docs/system_architecture.jpg)
+
+## Usage
+```
+python3 jeopardy/src/data_parsing_reconfiguration/generate_jeopardy_sql_files.py -h
+
+usage: generate_jeopardy_sql_files.py -i=INPUT_CONFIG_FILE -o=
+                                      OUTPUT_CONFIG_FILE [-h]
+
+optional arguments:
+  -h, --help            This Python script reads CSV files and creates .sql
+                        files to insert in database. The project is meant to
+                        be used for creating a Jeopardy database.
+
+required named arguments:
+  -i INPUT_CONFIG_FILE, --input_config INPUT_CONFIG_FILE
+                        Input Configuration file provides details of the
+                        locations of the required CSV files.                        
+
+  -o OUTPUT_CONFIG_FILE, --output_config OUTPUT_CONFIG_FILE
+                        Output Configuration file provides details of the
+                        locations of the generated .sql files containing
+                        insert statements for the Jeopardy database tables.
+```
+Sample INPUT_CONFIG_FILE available <a href="https://raw.githubusercontent.com/anuparna/jeopardy/master/src/data_parsing_reconfiguration/input_config.ini">here</a>.<br/>
+ Sample OUTPUT_CONFIG_FILE available <a href="https://raw.githubusercontent.com/anuparna/jeopardy/master/src/data_parsing_reconfiguration/output_config.ini">here</a>.
