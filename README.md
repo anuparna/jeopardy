@@ -1,16 +1,19 @@
 # Jeopardy!
 A web-application built on Jeopardy!, a popular American game show.<br/> The project presents a web-interface to search questions based on the game-show.
 
-There are 3 questions we focus on:
+There are 3 questions we focus on:<b>
+  
 1. Which jeopardy questions were asked during a final round?
 2. Which jeopardy questions were answered by Ken Jennings? 
 3. Which jeopardy questions were answered by Brad Rutter?
+</b>
 
 NOTE: Ken Jennings is a contestant with a longest winning streak and Brad Rutter is a contestant with a highest earning. 
 
 ## Dataset
-The dataset consists of 5 CSV files. <br/>
-The dataset is available at <a href="https://github.com/anuparna/jeopardy/tree/master/dataset">here</a>.<br/>
+Dataset presents Jeopardy! games from 18 different seasons starting from Season 16 to Season 33. <br/>
+There are around ~ 230 games in each season. <br/>
+The dataset consists of 5 CSV files available at <a href="https://github.com/anuparna/jeopardy/tree/master/dataset">here</a>.<br/>
 Path: ```jeopardy/dataset```
 
 Entity Relationship Diagram is avalable <a href="https://raw.githubusercontent.com/anuparna/jeopardy/master/docs/ER_Diagram.pdf">here</a>.
