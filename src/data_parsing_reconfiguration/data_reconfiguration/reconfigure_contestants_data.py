@@ -12,13 +12,16 @@ def find_contestant_id_from_dup_records(contestant_id):
     @return: contestant_id used for database insertion.
     """
     if any(df_non_duplicate_contestants['player_id'] == contestant_id):
+        # if the contestant_id is present in the non duplicate oes
         return contestant_id
     else:
         if any(df_duplicate_contestants['player_id'] == contestant_id):
+            # check if duplicate records has the player id
             temp_contestant_df = df_duplicate_contestants.loc[df_duplicate_contestants['player_id']
                                                               == contestant_id]            
             first_row = temp_contestant_df.head(1)
 
+            # find the appropriate contestant id based on the other parameters
             non_dup_contestants = df_non_duplicate_contestants
             non_duplicated_player_df_with_criteria = pd.merge(non_dup_contestants, first_row, how='inner',
                                                               on=['player_first_name', 'player_last_name',
