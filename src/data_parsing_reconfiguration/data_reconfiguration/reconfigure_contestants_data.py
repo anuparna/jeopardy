@@ -1,5 +1,25 @@
 from sql_generator import contestant
 from sql_generator import occupation
+from copy import deepcopy
+import pandas as pd
+
+
+def find_contestant_id_from_dup_records(contestant_id):
+    if any(df_non_duplicate_contestants['player_id'] == contestant_id):
+        return contestant_id
+    else:
+        if any(df_duplicate_contestants['player_id'] == contestant_id):
+            temp_contestant_df = df_duplicate_contestants.loc[df_duplicate_contestants['player_id']
+                                                              == contestant_id]            
+            first_row = temp_contestant_df.head(1)
+
+            non_dup_contestants = df_non_duplicate_contestants
+            non_duplicated_player_df_with_criteria = pd.merge(non_dup_contestants, first_row, how='inner',
+                                                              on=['player_first_name', 'player_last_name',
+                                                                  'hometown_city', 'hometown_state', 'occupation'])
+            if len(non_duplicated_player_df_with_criteria) == 1:
+                return non_duplicated_player_df_with_criteria['player_id_x'].item()
+        return ''
 
 
 def generate_contestant_and_occupation(df_contestant, input_config, output_config):
@@ -14,15 +34,24 @@ def generate_contestant_and_occupation(df_contestant, input_config, output_confi
     contestants_sql_location = output_config.get('files', 'contestants')
     occupation_sql_location = output_config.get('files', 'occupations')
 
+    # reset the sql files
+    open(contestants_sql_location, 'w').close()
+    open(occupation_sql_location, 'w').close()
+
     # get entity definition
     contestant_entity_definition = input_config.get('entities', 'contestant')
     occupation_entity_definition = input_config.get('entities', 'occupation')
 
     # remove duplicate player_id rows and clean data
-    df_contestant = df_contestant.drop_duplicates(subset=['player_id'], keep='first')
+    global df_duplicate_contestants
     df_contestant = df_contestant.fillna('')
+    df_duplicate_contestants = deepcopy(df_contestant)
+    df_contestant = df_contestant.drop_duplicates(subset=['player_id'], keep='first')
     df_contestant = df_contestant.drop_duplicates(df_contestant.columns.difference(['player_id']),
                                                   keep='first')
+    global df_non_duplicate_contestants
+    df_non_duplicate_contestants = df_contestant
+    print(df_duplicate_contestants.shape, df_non_duplicate_contestants.shape )
 
     # Generate group of customers with the same occupation.
     contestants_groups = df_contestant.groupby(df_contestant['occupation'])

@@ -30,4 +30,4 @@ if __name__ == '__main__':
 
     # Reconfiguration
     rc.generate_contestant_and_occupation(contestants_df, input_config, output_config)
-    rc_game_player_loc.generate_sql_statements(game_contestant_df, input_config, output_config)
+    rc_game_player_loc.generate_sql_statements(game_contestant_df, input_config, output_config, rc)
