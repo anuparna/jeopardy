@@ -5,6 +5,12 @@ import pandas as pd
 
 
 def find_contestant_id_from_dup_records(contestant_id):
+    """
+    Since there exists duplicate records in the csv for contestants.
+    Given a contestant_id, find the unique_id used for insertion in the database.
+    @param contestant_id: Player id retrieved from the csv
+    @return: contestant_id used for database insertion.
+    """
     if any(df_non_duplicate_contestants['player_id'] == contestant_id):
         return contestant_id
     else:
