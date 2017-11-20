@@ -60,7 +60,6 @@ def generate_contestant_and_occupation(df_contestant, input_config, output_confi
                                                   keep='first')
     global df_non_duplicate_contestants
     df_non_duplicate_contestants = df_contestant
-    print(df_duplicate_contestants.shape, df_non_duplicate_contestants.shape )
 
     # Generate group of customers with the same occupation.
     contestants_groups = df_contestant.groupby(df_contestant['occupation'])
