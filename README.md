@@ -22,6 +22,10 @@ Entity Relationship Diagram is avalable <a href="https://raw.githubusercontent.c
 ![System Architecture](https://raw.githubusercontent.com/anuparna/jeopardy/master/docs/system_architecture.jpg)
 
 ## Usage
+
+The code for data parsing/configuration is present in ```jeopardy/src/data_parsing_reconfiguration``` <br/>
+The code for the web-page is present in ```jeopardy/public_html```<br/>
+
 ```
 python3 jeopardy/src/data_parsing_reconfiguration/generate_jeopardy_sql_files.py -h
 
