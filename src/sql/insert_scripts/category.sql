@@ -64096,3 +64096,27 @@ INSERT INTO category(category_id, category_name) VALUES (32048, 'eBay');
 
 INSERT INTO category(category_id, category_name) VALUES (32049, 'final');
 
+INSERT INTO category(category_id, category_name) VALUES (32050, 'iPHONE APPS');
+
+INSERT INTO category(category_id, category_name) VALUES (32051, 'iPOD, YOUTUBE OR WII');
+
+INSERT INTO category(category_id, category_name) VALUES (32052, 'lifescript.com');
+
+INSERT INTO category(category_id, category_name) VALUES (32053, 'reddit AMA RESPONSES');
+
+INSERT INTO category(category_id, category_name) VALUES (32054, 'small countries');
+
+INSERT INTO category(category_id, category_name) VALUES (32055, 'small state capitals');
+
+INSERT INTO category(category_id, category_name) VALUES (32056, 'steve jobs|');
+
+INSERT INTO category(category_id, category_name) VALUES (32057, 'think small');
+
+INSERT INTO category(category_id, category_name) VALUES (32058, 'x 2');
+
+INSERT INTO category(category_id, category_name) VALUES (32059, '¡HOLA TEQUILA!');
+
+INSERT INTO category(category_id, category_name) VALUES (32060, '¿HABLA ESPAÑOL?  ¡SÍ!');
+
+INSERT INTO category(category_id, category_name) VALUES (32061, '“WH”AT IS IT?');
+

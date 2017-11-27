@@ -30,7 +30,6 @@ def generate_sql_statements(questions_df,
                                                                     question_entity_definition,
                                                                     category_sql_location,
                                                                     category_entity_definition)
-    print(questions_trend_df.columns)
     print(" No. of question categories to be inserted : ", no_of_question_categories)
     print(" No. of questions to be inserted : ", no_of_questions)
 
@@ -62,13 +61,25 @@ def generate_questions(questions_trend_df,
             question_row = question_rows.iloc[index]
             question_counter += 1
             questions_param['question_id'] = question_counter
-            questions_param['question_text'] = (question_row['question_text'].strip()).replace("'", "\\'")
-            questions_param['answer'] = (question_row['answer'].strip()).replace("'", "\\'")
+
+            question_text = (question_row['question_text'].strip())
+            question_text = question_text.replace('"', '\\"')
+            question_text = question_text.replace("'", "\\'")
+            question_text = question_text.replace("\\\\'", "\\'")
+            questions_param['question_text'] = question_text
+
+            answer = (question_row['answer'].strip())
+            answer = answer.replace('"', '\\"')
+            answer = answer.replace("'", "\\'")
+            answer = answer.replace("\\\\'", "\\'")
+            questions_param['answer'] = answer
+
             questions_param['dollar_value'] = question_row['value_x']
             questions_param['file_location'] = question_sql_location
             questions_param['game_id'] = question_row['game_id']
             questions_param['round_name'] = (question_row['round'].strip()).replace("'", "\\'")
             questions_param['category_id'] = category_counter
+
             if pd.notnull(question_row['season_y']):
                 if pd.notnull(question_row['wager']):
                     questions_param['is_daily_double'] = 1
