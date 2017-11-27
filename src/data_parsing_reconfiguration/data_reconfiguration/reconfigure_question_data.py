@@ -7,6 +7,14 @@ def generate_sql_statements(questions_df,
                             trend_df,
                             input_config,
                             output_config):
+    """
+    Generate sql statements for question, category, correct_reponse and wager
+    @param questions_df: Pandas dataframe from questions.csv
+    @param trend_df:  Pandas dataframe from trend.csv
+    @param input_config: Input configuration
+    @param output_config: Output configuration
+    @return: None
+    """
     # get location of output files
     question_sql_location = output_config.get('files', 'questions')
     category_sql_location = output_config.get('files', 'category')
@@ -39,6 +47,15 @@ def generate_questions(questions_trend_df,
                        question_entity_definition,
                        category_sql_location,
                        category_entity_definition):
+    """
+    Generates SQL statements for category and question entities
+    @param questions_trend_df: Combination of questions and trend csv in the form of Pandas dataframe
+    @param question_sql_location: SQL file location of the to-be generated questions
+    @param question_entity_definition: Entity definition of the SQL entity - question
+    @param category_sql_location: SQL file location of the to-be generated question - categories
+    @param category_entity_definition: Entity definition of the SQL entity - category
+    @return:
+    """
     question_counter = 0
     category_counter = 0
     questions_param = {}
