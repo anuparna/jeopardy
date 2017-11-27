@@ -36,8 +36,11 @@ def argument_parser():
     # Read config file
     input_config_file = args.input_config_file
     output_config_file = args.output_config_file
+
     input_config = configparser.ConfigParser()
     output_config = configparser.ConfigParser()
+
     input_config.read(input_config_file)
     output_config.read(output_config_file)
+
     return input_config, output_config

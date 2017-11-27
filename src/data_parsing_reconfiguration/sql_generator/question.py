@@ -3,9 +3,9 @@ from enum import Enum
 
 
 class Round(Enum):
-    JP = 'jeopardy'
-    DJ = 'double jeopardy'
-    F = 'final'
+    J = 'Jeopardy'
+    DJ = 'Double Jeopardy'
+    final = 'Final'
 
 
 class Question(object):
@@ -24,7 +24,7 @@ class Question(object):
         self.dollar_value = kwargs.get('dollar_value')
         self.question_index = kwargs.get('question_index')
         self.is_daily_double = kwargs.get('is_daily_double')
-        self.round_name = Round(kwargs.get('round_name'))
+        self.round_name = (Round[kwargs.get('round_name')]).value
         # ENUM('jeopardy', 'double jeopardy', 'final'),
         self.category_id = kwargs.get('category_id')
         self.game_id = kwargs.get('game_id')
@@ -36,8 +36,6 @@ class Question(object):
         @param entity_definition: Entity definition - table (columns...) from the input configuration
         @return query : String query generated
         """
-        file = open(self.sql_file, "a")
-
         query = constants.INSERT_INTO + entity_definition + ' VALUES ({0}, \'{1}\', \'{2}\', {3}, {4},' \
                                                             ' \'{5}\', \'{6}\', {7}, {8}' + ');\n'
         query = query.format(self.question_id,
@@ -50,6 +48,8 @@ class Question(object):
                              self.category_id,
                              self.game_id)
 
-        file.write(query)
+        with open(self.sql_file, 'a', encoding='utf-8') as file:
+            print(query, file=file)
+
         file.close()
         return query

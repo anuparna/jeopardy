@@ -36,5 +36,4 @@ if __name__ == '__main__':
     rc_game_player_loc.generate_sql_statements(game_contestant_df, input_config, output_config, rc)
 
     # Reconfiguration of questions
-    rcq.generate_questions(questions_df, trend_df,
-                           input_config, output_config)
+    rcq.generate_sql_statements(questions_df, trend_df, input_config, output_config)
