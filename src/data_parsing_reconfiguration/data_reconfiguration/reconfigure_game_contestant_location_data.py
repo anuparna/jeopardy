@@ -43,6 +43,7 @@ def generate_contestant_location(df_contestant_loc, input_config, output_config,
     @param output_config: Output configuration, primarily used to retrieve the location of the .sql file to be generated
     @param rc: instance of reconfigure_contestants_data
     @return: loc_counter: count of the no. of rows to be inserted in the entity contestant_location
+    @return: df_player_loc: modified game wise player location Pandas dataframe
     """
     loc_counter = 0
 
@@ -65,9 +66,10 @@ def generate_contestant_location(df_contestant_loc, input_config, output_config,
                                                           seat_location=row['seat_location'].strip(),
                                                           file_location=contestant_loc_sql_location)
         location.generate_sql(contestant_loc_entity_definition)
+        row['player_id'] = player_id
         loc_counter += 1
 
-    return loc_counter
+    return loc_counter, df_player_loc
 
 
 def generate_sql_statements(df_contestant_loc, input_config, output_config, rc):
@@ -84,8 +86,9 @@ def generate_sql_statements(df_contestant_loc, input_config, output_config, rc):
                                 output_config=output_config)
     print(" No. of games to be inserted : ", no_of_games)
 
-    no_of_contestant_locations = generate_contestant_location(df_contestant_loc=df_contestant_loc,
-                                                              input_config=input_config,
-                                                              output_config=output_config,
-                                                              rc=rc)
+    no_of_contestant_locations, df_player_loc = generate_contestant_location(df_contestant_loc=df_contestant_loc,
+                                                                             input_config=input_config,
+                                                                             output_config=output_config,
+                                                                             rc=rc)
     print(" No. of contestant locations to be inserted : ", no_of_contestant_locations)
+    return df_player_loc

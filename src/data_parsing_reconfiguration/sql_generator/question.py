@@ -13,22 +13,22 @@ class Question(object):
     Question entity with details of the questions asked in a game.
     """
 
-    def __init__(self, **kwargs):
+    def __init__(self, **question_arguments):
         """
         Create a instance of Question
-        @param kwargs: map of named arguments - variables used for instantiation
+        @param question_arguments: map of named arguments - variables used for instantiation
         """
-        self.question_id = kwargs.get('question_id')
-        self.question_text = kwargs.get('question_text')
-        self.answer = kwargs.get('answer')
-        self.dollar_value = kwargs.get('dollar_value')
-        self.question_index = kwargs.get('question_index')
-        self.is_daily_double = kwargs.get('is_daily_double')
-        self.round_name = (Round[kwargs.get('round_name')]).value
-        # ENUM('jeopardy', 'double jeopardy', 'final'),
-        self.category_id = kwargs.get('category_id')
-        self.game_id = kwargs.get('game_id')
-        self.sql_file = kwargs.get('file_location')
+        self.question_id = question_arguments.get('question_id')
+        self.question_text = question_arguments.get('question_text')
+        self.answer = question_arguments.get('answer')
+        self.dollar_value = question_arguments.get('dollar_value')
+        self.question_index = question_arguments.get('question_index')
+        self.is_daily_double = question_arguments.get('is_daily_double')
+        # ENUM('jeopardy', 'double jeopardy', 'final')
+        self.round_name = (Round[question_arguments.get('round_name')]).value
+        self.category_id = question_arguments.get('category_id')
+        self.game_id = question_arguments.get('game_id')
+        self.sql_file = question_arguments.get('file_location')
 
     def generate_sql(self, entity_definition):
         """
