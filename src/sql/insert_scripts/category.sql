@@ -76268,3 +76268,617 @@ INSERT INTO category(category_id, category_name) VALUES (30260, 'WELL, I\'M WARM
 
 INSERT INTO category(category_id, category_name) VALUES (30261, 'WELL, IT\'S NOT SHAKESPEARE');
 
+INSERT INTO category(category_id, category_name) VALUES (30262, 'WELL, THAT\'S OBVIOUS');
+
+INSERT INTO category(category_id, category_name) VALUES (30263, 'WELL, THEY SOUND THE SAME...');
+
+INSERT INTO category(category_id, category_name) VALUES (30264, 'WELL, YOU "NO"');
+
+INSERT INTO category(category_id, category_name) VALUES (30265, 'WELL-PLAYED, WELL-PAID');
+
+INSERT INTO category(category_id, category_name) VALUES (30266, 'WELL-SEASONED BOOKS');
+
+INSERT INTO category(category_id, category_name) VALUES (30267, 'WELL-SEASONED NAMES');
+
+INSERT INTO category(category_id, category_name) VALUES (30268, 'WELLS');
+
+INSERT INTO category(category_id, category_name) VALUES (30269, 'WEST AFRICA');
+
+INSERT INTO category(category_id, category_name) VALUES (30270, 'WEST POINT ALUMNI');
+
+INSERT INTO category(category_id, category_name) VALUES (30271, 'WEST SIDE STORY');
+
+INSERT INTO category(category_id, category_name) VALUES (30272, 'WEST VIRGINIA');
+
+INSERT INTO category(category_id, category_name) VALUES (30273, 'WESTERN HEMISPHERE RIVERS');
+
+INSERT INTO category(category_id, category_name) VALUES (30274, 'WESTERN MOVIES');
+
+INSERT INTO category(category_id, category_name) VALUES (30275, 'WESTERNS');
+
+INSERT INTO category(category_id, category_name) VALUES (30276, 'WESTMINSTER');
+
+INSERT INTO category(category_id, category_name) VALUES (30277, 'WESTMINSTER ABBEY');
+
+INSERT INTO category(category_id, category_name) VALUES (30278, 'WESTWARD EXPANSION OF THE U.S.');
+
+INSERT INTO category(category_id, category_name) VALUES (30279, 'WET BAR GLOSSARY');
+
+INSERT INTO category(category_id, category_name) VALUES (30280, 'WHAAAZUUUP?!');
+
+INSERT INTO category(category_id, category_name) VALUES (30281, 'WHACK');
+
+INSERT INTO category(category_id, category_name) VALUES (30282, 'WHADDYA DRINKIN\'?');
+
+INSERT INTO category(category_id, category_name) VALUES (30283, 'WHALE OF FORTUNE');
+
+INSERT INTO category(category_id, category_name) VALUES (30284, 'WHALE WATCHING');
+
+INSERT INTO category(category_id, category_name) VALUES (30285, 'WHALE WATCHING IN BAJA');
+
+INSERT INTO category(category_id, category_name) VALUES (30286, 'WHALES');
+
+INSERT INTO category(category_id, category_name) VALUES (30287, 'WHAM!');
+
+INSERT INTO category(category_id, category_name) VALUES (30288, 'WHAM-O');
+
+INSERT INTO category(category_id, category_name) VALUES (30289, 'WHAT');
+
+INSERT INTO category(category_id, category_name) VALUES (30290, 'WHAT "A" COUNTRY');
+
+INSERT INTO category(category_id, category_name) VALUES (30291, 'WHAT "A" COUNTRY!');
+
+INSERT INTO category(category_id, category_name) VALUES (30292, 'WHAT "IA" COUNTRY');
+
+INSERT INTO category(category_id, category_name) VALUES (30293, 'WHAT "ITIS" IS IT?');
+
+INSERT INTO category(category_id, category_name) VALUES (30294, 'WHAT "R" WE?');
+
+INSERT INTO category(category_id, category_name) VALUES (30295, 'WHAT "RU"?');
+
+INSERT INTO category(category_id, category_name) VALUES (30296, 'WHAT \'80s MOVIE IS THAT SONG FROM?');
+
+INSERT INTO category(category_id, category_name) VALUES (30297, 'WHAT 2 Q SO LONG?');
+
+INSERT INTO category(category_id, category_name) VALUES (30298, 'WHAT 4');
+
+INSERT INTO category(category_id, category_name) VALUES (30299, 'WHAT A "CARD"!');
+
+INSERT INTO category(category_id, category_name) VALUES (30300, 'WHAT A "CO"-INCIDENCE');
+
+INSERT INTO category(category_id, category_name) VALUES (30301, 'WHAT A "FUN" TIME');
+
+INSERT INTO category(category_id, category_name) VALUES (30302, 'WHAT A "GAL"');
+
+INSERT INTO category(category_id, category_name) VALUES (30303, 'WHAT A "HAM"');
+
+INSERT INTO category(category_id, category_name) VALUES (30304, 'WHAT A (TV) CHARACTER!');
+
+INSERT INTO category(category_id, category_name) VALUES (30305, 'WHAT A 19th CENTURY CHARACTER');
+
+INSERT INTO category(category_id, category_name) VALUES (30306, 'WHAT A 19th CENTURY YEAR!');
+
+INSERT INTO category(category_id, category_name) VALUES (30307, 'WHAT A BEAST!');
+
+INSERT INTO category(category_id, category_name) VALUES (30308, 'WHAT A BODY!');
+
+INSERT INTO category(category_id, category_name) VALUES (30309, 'WHAT A BOHR!');
+
+INSERT INTO category(category_id, category_name) VALUES (30310, 'WHAT A BROADWAY CHARACTER!');
+
+INSERT INTO category(category_id, category_name) VALUES (30311, 'WHAT A BUNCH OF BOLOGNA');
+
+INSERT INTO category(category_id, category_name) VALUES (30312, 'WHAT A BUNCH OF TV CHARACTERS');
+
+INSERT INTO category(category_id, category_name) VALUES (30313, 'WHAT A CARD!');
+
+INSERT INTO category(category_id, category_name) VALUES (30314, 'WHAT A CAST OF TV CHARACTERS!');
+
+INSERT INTO category(category_id, category_name) VALUES (30315, 'WHAT A CENTURY');
+
+INSERT INTO category(category_id, category_name) VALUES (30316, 'WHAT A CHARACTER');
+
+INSERT INTO category(category_id, category_name) VALUES (30317, 'WHAT A CHARACTER!');
+
+INSERT INTO category(category_id, category_name) VALUES (30318, 'WHAT A CLICHE');
+
+INSERT INTO category(category_id, category_name) VALUES (30319, 'WHAT A CLICHÃ‰!');
+
+INSERT INTO category(category_id, category_name) VALUES (30320, 'WHAT A COMEDIAN');
+
+INSERT INTO category(category_id, category_name) VALUES (30321, 'WHAT A CONCEPT');
+
+INSERT INTO category(category_id, category_name) VALUES (30322, 'WHAT A COOL GADGET');
+
+INSERT INTO category(category_id, category_name) VALUES (30323, 'WHAT A COUNTRY!');
+
+INSERT INTO category(category_id, category_name) VALUES (30324, 'WHAT A COUP!');
+
+INSERT INTO category(category_id, category_name) VALUES (30325, 'WHAT A DECADE IN THE U.S.');
+
+INSERT INTO category(category_id, category_name) VALUES (30326, 'WHAT A DELICIOUS DISH');
+
+INSERT INTO category(category_id, category_name) VALUES (30327, 'WHAT A DICTATOR');
+
+INSERT INTO category(category_id, category_name) VALUES (30328, 'WHAT A DISH!');
+
+INSERT INTO category(category_id, category_name) VALUES (30329, 'WHAT A DOG!');
+
+INSERT INTO category(category_id, category_name) VALUES (30330, 'WHAT A DOLL!');
+
+INSERT INTO category(category_id, category_name) VALUES (30331, 'WHAT A FAMOUS HORSE RACE!');
+
+INSERT INTO category(category_id, category_name) VALUES (30332, 'WHAT A FOSSIL!');
+
+INSERT INTO category(category_id, category_name) VALUES (30333, 'WHAT A GAS!');
+
+INSERT INTO category(category_id, category_name) VALUES (30334, 'WHAT A GEM!');
+
+INSERT INTO category(category_id, category_name) VALUES (30335, 'WHAT A GIRL WANTS');
+
+INSERT INTO category(category_id, category_name) VALUES (30336, 'WHAT A GODDESS');
+
+INSERT INTO category(category_id, category_name) VALUES (30337, 'WHAT A GOOD IDEA!');
+
+INSERT INTO category(category_id, category_name) VALUES (30338, 'WHAT A KNOCKOUT!');
+
+INSERT INTO category(category_id, category_name) VALUES (30339, 'WHAT A LITERARY CHARACTER!');
+
+INSERT INTO category(category_id, category_name) VALUES (30340, 'WHAT A MONTH!');
+
+INSERT INTO category(category_id, category_name) VALUES (30341, 'WHAT A MYTHTAKE!');
+
+INSERT INTO category(category_id, category_name) VALUES (30342, 'WHAT A NICE PAIR!');
+
+INSERT INTO category(category_id, category_name) VALUES (30343, 'WHAT A PEASANT SURPRISE');
+
+INSERT INTO category(category_id, category_name) VALUES (30344, 'WHAT A PIG!');
+
+INSERT INTO category(category_id, category_name) VALUES (30345, 'WHAT A REVOLTIN\' DEVELOPMENT!');
+
+INSERT INTO category(category_id, category_name) VALUES (30346, 'WHAT A SCOOP!');
+
+INSERT INTO category(category_id, category_name) VALUES (30347, 'WHAT A STATE I\'M IN');
+
+INSERT INTO category(category_id, category_name) VALUES (30348, 'WHAT A SUCCESSION!');
+
+INSERT INTO category(category_id, category_name) VALUES (30349, 'WHAT A TOOL');
+
+INSERT INTO category(category_id, category_name) VALUES (30350, 'WHAT A TV CHARACTER!');
+
+INSERT INTO category(category_id, category_name) VALUES (30351, 'WHAT A TV DRAMA KING');
+
+INSERT INTO category(category_id, category_name) VALUES (30352, 'WHAT A TV DRAMA QUEEN!');
+
+INSERT INTO category(category_id, category_name) VALUES (30353, 'WHAT A WAY TO GO');
+
+INSERT INTO category(category_id, category_name) VALUES (30354, 'WHAT A WEEK');
+
+INSERT INTO category(category_id, category_name) VALUES (30355, 'WHAT A WONDERFUL "WORLD"');
+
+INSERT INTO category(category_id, category_name) VALUES (30356, 'WHAT ABOUT BOB?');
+
+INSERT INTO category(category_id, category_name) VALUES (30357, 'WHAT ABOUT ESTONIA?');
+
+INSERT INTO category(category_id, category_name) VALUES (30358, 'WHAT AILS "IA"');
+
+INSERT INTO category(category_id, category_name) VALUES (30359, 'WHAT AILS YA');
+
+INSERT INTO category(category_id, category_name) VALUES (30360, 'WHAT AILS YOU?');
+
+INSERT INTO category(category_id, category_name) VALUES (30361, 'WHAT AM I DOING IN NEW JERSEY?');
+
+INSERT INTO category(category_id, category_name) VALUES (30362, 'WHAT AM I GOING TO WEAR?');
+
+INSERT INTO category(category_id, category_name) VALUES (30363, 'WHAT AM I HAVING?');
+
+INSERT INTO category(category_id, category_name) VALUES (30364, 'WHAT AN "AGE"');
+
+INSERT INTO category(category_id, category_name) VALUES (30365, 'WHAT AN ARTIST DIES IN ME!');
+
+INSERT INTO category(category_id, category_name) VALUES (30366, 'WHAT AN ICE PARTY');
+
+INSERT INTO category(category_id, category_name) VALUES (30367, 'WHAT AN INVENTION');
+
+INSERT INTO category(category_id, category_name) VALUES (30368, 'WHAT ARE "YOU" DOING?');
+
+INSERT INTO category(category_id, category_name) VALUES (30369, 'WHAT ARE THEY?');
+
+INSERT INTO category(category_id, category_name) VALUES (30370, 'WHAT ARE THOSE?');
+
+INSERT INTO category(category_id, category_name) VALUES (30371, 'WHAT ARE YA...YELLOW?');
+
+INSERT INTO category(category_id, category_name) VALUES (30372, 'WHAT ARE YOU AFRAID OF?');
+
+INSERT INTO category(category_id, category_name) VALUES (30373, 'WHAT ARE YOU DOING LATER?');
+
+INSERT INTO category(category_id, category_name) VALUES (30374, 'WHAT ARE YOU DOING?');
+
+INSERT INTO category(category_id, category_name) VALUES (30375, 'WHAT ARE YOU MADE OF?');
+
+INSERT INTO category(category_id, category_name) VALUES (30376, 'WHAT ARE YOU ON?');
+
+INSERT INTO category(category_id, category_name) VALUES (30377, 'WHAT ARE YOU READING?');
+
+INSERT INTO category(category_id, category_name) VALUES (30378, 'WHAT ARE YOU SELLING?');
+
+INSERT INTO category(category_id, category_name) VALUES (30379, 'WHAT ARE YOU WAITING FOR?');
+
+INSERT INTO category(category_id, category_name) VALUES (30380, 'WHAT ARE YOU, YELLOW?');
+
+INSERT INTO category(category_id, category_name) VALUES (30381, 'WHAT ARE YOU... CHICKEN?');
+
+INSERT INTO category(category_id, category_name) VALUES (30382, 'WHAT BIG TEETH YOU HAVE!');
+
+INSERT INTO category(category_id, category_name) VALUES (30383, 'WHAT BROUGHT THAT ON?');
+
+INSERT INTO category(category_id, category_name) VALUES (30384, 'WHAT CABINET DEPARTMENT?');
+
+INSERT INTO category(category_id, category_name) VALUES (30385, 'WHAT CAN BROWN DO FOR YOU?');
+
+INSERT INTO category(category_id, category_name) VALUES (30386, 'WHAT CAN YOU BUY FOR A BUCK?');
+
+INSERT INTO category(category_id, category_name) VALUES (30387, 'WHAT CENTURY ARE YOU LIVING IN?');
+
+INSERT INTO category(category_id, category_name) VALUES (30388, 'WHAT COLOR IS GREEN?');
+
+INSERT INTO category(category_id, category_name) VALUES (30389, 'WHAT COLOR IS THE DRESS?');
+
+INSERT INTO category(category_id, category_name) VALUES (30390, 'WHAT COLOR IS YOUR BUSINESS?');
+
+INSERT INTO category(category_id, category_name) VALUES (30391, 'WHAT COLOR IS YOUR REVOLUTION?');
+
+INSERT INTO category(category_id, category_name) VALUES (30392, 'WHAT COULD SHE BE DOING IN THERE?');
+
+INSERT INTO category(category_id, category_name) VALUES (30393, 'WHAT COUNTRY ARE YOU FROM?');
+
+INSERT INTO category(category_id, category_name) VALUES (30394, 'WHAT DAY IS IT?');
+
+INSERT INTO category(category_id, category_name) VALUES (30395, 'WHAT DAY OF THE WEEK WAS IT?');
+
+INSERT INTO category(category_id, category_name) VALUES (30396, 'WHAT DEGREE ARE YOU GETTING?');
+
+INSERT INTO category(category_id, category_name) VALUES (30397, 'WHAT DEGREE DID THEY GET?');
+
+INSERT INTO category(category_id, category_name) VALUES (30398, 'WHAT DID I DO WITH MY KEYS?');
+
+INSERT INTO category(category_id, category_name) VALUES (30399, 'WHAT DID JESUS DO?');
+
+INSERT INTO category(category_id, category_name) VALUES (30400, 'WHAT DID YOU SAY?');
+
+INSERT INTO category(category_id, category_name) VALUES (30401, 'WHAT DO I HEAR?');
+
+INSERT INTO category(category_id, category_name) VALUES (30402, 'WHAT DO I STAND FOR?');
+
+INSERT INTO category(category_id, category_name) VALUES (30403, 'WHAT DO U STAND FOR?');
+
+INSERT INTO category(category_id, category_name) VALUES (30404, 'WHAT DO YOU "C"?');
+
+INSERT INTO category(category_id, category_name) VALUES (30405, 'WHAT DO YOU "GN"OW?');
+
+INSERT INTO category(category_id, category_name) VALUES (30406, 'WHAT DO YOU COLLECT?');
+
+INSERT INTO category(category_id, category_name) VALUES (30407, 'WHAT DO YOU FEEL LIKE EATING?');
+
+INSERT INTO category(category_id, category_name) VALUES (30408, 'WHAT DO YOU MEASURE?');
+
+INSERT INTO category(category_id, category_name) VALUES (30409, 'WHAT DO YOU STAND FOR?');
+
+INSERT INTO category(category_id, category_name) VALUES (30410, 'WHAT DO YOU WANT ON YOUR PIZZA?');
+
+INSERT INTO category(category_id, category_name) VALUES (30411, 'WHAT DOES SHE SEE IN HIM?');
+
+INSERT INTO category(category_id, category_name) VALUES (30412, 'WHAT DOES YOUR GARDEN GROW?');
+
+INSERT INTO category(category_id, category_name) VALUES (30413, 'WHAT DOESN\'T BELONG?');
+
+INSERT INTO category(category_id, category_name) VALUES (30414, 'WHAT EXIT ARE YA FROM?');
+
+INSERT INTO category(category_id, category_name) VALUES (30415, 'WHAT FOODS THESE MORSELS BE');
+
+INSERT INTO category(category_id, category_name) VALUES (30416, 'WHAT GIVES YOU THE RIGHT?');
+
+INSERT INTO category(category_id, category_name) VALUES (30417, 'WHAT GOOGLE COULD BE DOING');
+
+INSERT INTO category(category_id, category_name) VALUES (30418, 'WHAT GOOGLE IS DOING');
+
+INSERT INTO category(category_id, category_name) VALUES (30419, 'WHAT GRADE DID YOU GET?');
+
+INSERT INTO category(category_id, category_name) VALUES (30420, 'WHAT GREAT BIG TEETH YOU HAVE!');
+
+INSERT INTO category(category_id, category_name) VALUES (30421, 'WHAT HAPPENED TO THE "MOTHER"s?');
+
+INSERT INTO category(category_id, category_name) VALUES (30422, 'WHAT HAPPENED WHEN?');
+
+INSERT INTO category(category_id, category_name) VALUES (30423, 'WHAT HAPPENED?');
+
+INSERT INTO category(category_id, category_name) VALUES (30424, 'WHAT HAPPENS IN DEGAS, STAYS IN DEGAS');
+
+INSERT INTO category(category_id, category_name) VALUES (30425, 'WHAT HAPPENS IN VEGAS');
+
+INSERT INTO category(category_id, category_name) VALUES (30426, 'WHAT HATH TODD WROUGHT?');
+
+INSERT INTO category(category_id, category_name) VALUES (30427, 'WHAT HAVE "V" HERE');
+
+INSERT INTO category(category_id, category_name) VALUES (30428, 'WHAT HAVE "V" HERE?');
+
+INSERT INTO category(category_id, category_name) VALUES (30429, 'WHAT HAVE I DONE?');
+
+INSERT INTO category(category_id, category_name) VALUES (30430, 'WHAT I DID ON SUMMER VACATION');
+
+INSERT INTO category(category_id, category_name) VALUES (30431, 'WHAT I LEARNED FROM WOMEN\'S MAGAZINES');
+
+INSERT INTO category(category_id, category_name) VALUES (30432, 'WHAT I MEANT TO SAY WAS...');
+
+INSERT INTO category(category_id, category_name) VALUES (30433, 'WHAT I REALLY WANT TO DO IS DIRECT');
+
+INSERT INTO category(category_id, category_name) VALUES (30434, 'WHAT IS IT ABOUT HIM?');
+
+INSERT INTO category(category_id, category_name) VALUES (30435, 'WHAT IS IT YOU DO?');
+
+INSERT INTO category(category_id, category_name) VALUES (30436, 'WHAT IS IT?');
+
+INSERT INTO category(category_id, category_name) VALUES (30437, 'WHAT IS THIS THING CALLED LAVA?');
+
+INSERT INTO category(category_id, category_name) VALUES (30438, 'WHAT IS THIS, SOME KIND OF JOKE?');
+
+INSERT INTO category(category_id, category_name) VALUES (30439, 'WHAT ISLAND?');
+
+INSERT INTO category(category_id, category_name) VALUES (30440, 'WHAT IT\'S NOT');
+
+INSERT INTO category(category_id, category_name) VALUES (30441, 'WHAT KIDS ARE READING THESE DAYS');
+
+INSERT INTO category(category_id, category_name) VALUES (30442, 'WHAT KIN ARE YOU TO ME?');
+
+INSERT INTO category(category_id, category_name) VALUES (30443, 'WHAT KIND OF ANIMAL ARE YOU?');
+
+INSERT INTO category(category_id, category_name) VALUES (30444, 'WHAT KIND OF ANIMAL MASCOT?');
+
+INSERT INTO category(category_id, category_name) VALUES (30445, 'WHAT KIND OF ANIMATED ANIMAL ARE YOU?');
+
+INSERT INTO category(category_id, category_name) VALUES (30446, 'WHAT KIND OF FOWL AM I?');
+
+INSERT INTO category(category_id, category_name) VALUES (30447, 'WHAT KIND OF MOVIE ANIMAL ARE YOU?');
+
+INSERT INTO category(category_id, category_name) VALUES (30448, 'WHAT KIND OF MOVIE?');
+
+INSERT INTO category(category_id, category_name) VALUES (30449, 'WHAT KIND OF PAINT YOU USING?');
+
+INSERT INTO category(category_id, category_name) VALUES (30450, 'WHAT KIND OF SHAPE ARE YOU IN?');
+
+INSERT INTO category(category_id, category_name) VALUES (30451, 'WHAT MAKES IT GO?');
+
+INSERT INTO category(category_id, category_name) VALUES (30452, 'WHAT MEN WANT');
+
+INSERT INTO category(category_id, category_name) VALUES (30453, 'WHAT MOVES YOU?');
+
+INSERT INTO category(category_id, category_name) VALUES (30454, 'WHAT PLANET ARE YOU FROM?');
+
+INSERT INTO category(category_id, category_name) VALUES (30455, 'WHAT POSSESSED THEM?');
+
+INSERT INTO category(category_id, category_name) VALUES (30456, 'WHAT SHOULD I "DU"?');
+
+INSERT INTO category(category_id, category_name) VALUES (30457, 'WHAT SIGN ARE YOU?');
+
+INSERT INTO category(category_id, category_name) VALUES (30458, 'WHAT SO PROUDLY WE HAILED');
+
+INSERT INTO category(category_id, category_name) VALUES (30459, 'WHAT THE "ECK"');
+
+INSERT INTO category(category_id, category_name) VALUES (30460, 'WHAT THE "ELL"?');
+
+INSERT INTO category(category_id, category_name) VALUES (30461, 'WHAT THE "H"');
+
+INSERT INTO category(category_id, category_name) VALUES (30462, 'WHAT THE "H" IS IT?');
+
+INSERT INTO category(category_id, category_name) VALUES (30463, 'WHAT THE "H"?');
+
+INSERT INTO category(category_id, category_name) VALUES (30464, 'WHAT THE "L"');
+
+INSERT INTO category(category_id, category_name) VALUES (30465, 'WHAT THE "L" IS IT?');
+
+INSERT INTO category(category_id, category_name) VALUES (30466, 'WHAT THE "L"?');
+
+INSERT INTO category(category_id, category_name) VALUES (30467, 'WHAT THE "L"?!');
+
+INSERT INTO category(category_id, category_name) VALUES (30468, 'WHAT THE "MEL"');
+
+INSERT INTO category(category_id, category_name) VALUES (30469, 'WHAT THE \'90s MOVIE TITLE MEANS');
+
+INSERT INTO category(category_id, category_name) VALUES (30470, 'WHAT THE BLEEP?');
+
+INSERT INTO category(category_id, category_name) VALUES (30471, 'WHAT THE CITY NAME MEANS');
+
+INSERT INTO category(category_id, category_name) VALUES (30472, 'WHAT THE CURRENT TV TITLE MEANS');
+
+INSERT INTO category(category_id, category_name) VALUES (30473, 'WHAT THE DICKENS!');
+
+INSERT INTO category(category_id, category_name) VALUES (30474, 'WHAT THE DICKENS?');
+
+INSERT INTO category(category_id, category_name) VALUES (30475, 'WHAT THE GREEK PREFIX MEANS');
+
+INSERT INTO category(category_id, category_name) VALUES (30476, 'WHAT THE HECK IS IT?');
+
+INSERT INTO category(category_id, category_name) VALUES (30477, 'WHAT THE HECK IS THAT CRITTER?');
+
+INSERT INTO category(category_id, category_name) VALUES (30478, 'WHAT THE TV TITLE MEANS');
+
+INSERT INTO category(category_id, category_name) VALUES (30479, 'WHAT THE X-RAY SHOWS');
+
+INSERT INTO category(category_id, category_name) VALUES (30480, 'WHAT THE...?!');
+
+INSERT INTO category(category_id, category_name) VALUES (30481, 'WHAT THE?!');
+
+INSERT INTO category(category_id, category_name) VALUES (30482, 'WHAT THEY ARE');
+
+INSERT INTO category(category_id, category_name) VALUES (30483, 'WHAT THEY DID IN 2000');
+
+INSERT INTO category(category_id, category_name) VALUES (30484, 'WHAT THEY MAKE');
+
+INSERT INTO category(category_id, category_name) VALUES (30485, 'WHAT THEY WORE');
+
+INSERT INTO category(category_id, category_name) VALUES (30486, 'WHAT TO WEAR');
+
+INSERT INTO category(category_id, category_name) VALUES (30487, 'WHAT TO WEAR?');
+
+INSERT INTO category(category_id, category_name) VALUES (30488, 'WHAT UP, "G"?');
+
+INSERT INTO category(category_id, category_name) VALUES (30489, 'WHAT UP, DOG?');
+
+INSERT INTO category(category_id, category_name) VALUES (30490, 'WHAT WERE YOU WEARING?');
+
+INSERT INTO category(category_id, category_name) VALUES (30491, 'WHAT WILL YOU BE WHEN YOU GROW UP?');
+
+INSERT INTO category(category_id, category_name) VALUES (30492, 'WHAT WOMEN IN FILM WANT');
+
+INSERT INTO category(category_id, category_name) VALUES (30493, 'WHAT WOMEN WANT');
+
+INSERT INTO category(category_id, category_name) VALUES (30494, 'WHAT WORDS SHOULD REALLY MEAN');
+
+INSERT INTO category(category_id, category_name) VALUES (30495, 'WHAT WOULD WE DO WITHOUT...');
+
+INSERT INTO category(category_id, category_name) VALUES (30496, 'WHAT WOULD YOU LIKE TO DRINK?');
+
+INSERT INTO category(category_id, category_name) VALUES (30497, 'WHAT YEAR WAS THAT?');
+
+INSERT INTO category(category_id, category_name) VALUES (30498, 'WHAT YOU\'RE LEFT WITH');
+
+INSERT INTO category(category_id, category_name) VALUES (30499, 'WHAT\'D I SAY?');
+
+INSERT INTO category(category_id, category_name) VALUES (30500, 'WHAT\'D YOU CATCH?');
+
+INSERT INTO category(category_id, category_name) VALUES (30501, 'WHAT\'LL YA HAVE?');
+
+INSERT INTO category(category_id, category_name) VALUES (30502, 'WHAT\'S "BLACK" & "WHITE"?');
+
+INSERT INTO category(category_id, category_name) VALUES (30503, 'WHAT\'S "D" MATTER?');
+
+INSERT INTO category(category_id, category_name) VALUES (30504, 'WHAT\'S "NEW"?');
+
+INSERT INTO category(category_id, category_name) VALUES (30505, 'WHAT\'S "NU"');
+
+INSERT INTO category(category_id, category_name) VALUES (30506, 'WHAT\'S "UP"?');
+
+INSERT INTO category(category_id, category_name) VALUES (30507, 'WHAT\'S APENNINE');
+
+INSERT INTO category(category_id, category_name) VALUES (30508, 'WHAT\'S AT THE $2 CINEMA?');
+
+INSERT INTO category(category_id, category_name) VALUES (30509, 'WHAT\'S CHASING YOU?!');
+
+INSERT INTO category(category_id, category_name) VALUES (30510, 'WHAT\'S COOKIN\'?');
+
+INSERT INTO category(category_id, category_name) VALUES (30511, 'WHAT\'S COOKING AT THE NEW YORK TIMES');
+
+INSERT INTO category(category_id, category_name) VALUES (30512, 'WHAT\'S COOKING, COWBOY?');
+
+INSERT INTO category(category_id, category_name) VALUES (30513, 'WHAT\'S COOKING?');
+
+INSERT INTO category(category_id, category_name) VALUES (30514, 'WHAT\'S DOT?');
+
+INSERT INTO category(category_id, category_name) VALUES (30515, 'WHAT\'S EATING YOU?');
+
+INSERT INTO category(category_id, category_name) VALUES (30516, 'WHAT\'S FALLING?');
+
+INSERT INTO category(category_id, category_name) VALUES (30517, 'WHAT\'S FOR BREAKFAST?');
+
+INSERT INTO category(category_id, category_name) VALUES (30518, 'WHAT\'S FOR DESERT?');
+
+INSERT INTO category(category_id, category_name) VALUES (30519, 'WHAT\'S FOR DESSERT?');
+
+INSERT INTO category(category_id, category_name) VALUES (30520, 'WHAT\'S FOR LUNCH?');
+
+INSERT INTO category(category_id, category_name) VALUES (30521, 'WHAT\'S GOING "ON"?');
+
+INSERT INTO category(category_id, category_name) VALUES (30522, 'WHAT\'S GOING ON IN THE NEWS?');
+
+INSERT INTO category(category_id, category_name) VALUES (30523, 'WHAT\'S HE LIKE?');
+
+INSERT INTO category(category_id, category_name) VALUES (30524, 'WHAT\'S IN A CELEBRITY NAME?');
+
+INSERT INTO category(category_id, category_name) VALUES (30525, 'WHAT\'S IN A NAME');
+
+INSERT INTO category(category_id, category_name) VALUES (30526, 'WHAT\'S IN A NAME?');
+
+INSERT INTO category(category_id, category_name) VALUES (30527, 'WHAT\'S IN AN ARTIST\'S NAME?');
+
+INSERT INTO category(category_id, category_name) VALUES (30528, 'WHAT\'S IN AN OLD TESTAMENT NAME?');
+
+INSERT INTO category(category_id, category_name) VALUES (30529, 'WHAT\'S IN STORE?');
+
+INSERT INTO category(category_id, category_name) VALUES (30530, 'WHAT\'S IN THE BOX?!');
+
+INSERT INTO category(category_id, category_name) VALUES (30531, 'WHAT\'S IN THE FRIDGE?');
+
+INSERT INTO category(category_id, category_name) VALUES (30532, 'WHAT\'S IN YOUR "C"LOSET?');
+
+INSERT INTO category(category_id, category_name) VALUES (30533, 'WHAT\'S IN YOUR FOOD?');
+
+INSERT INTO category(category_id, category_name) VALUES (30534, 'WHAT\'S IN YOUR POCKET?');
+
+INSERT INTO category(category_id, category_name) VALUES (30535, 'WHAT\'S IN YOUR SUPERMARKET CART?');
+
+INSERT INTO category(category_id, category_name) VALUES (30536, 'WHAT\'S IN YOUR WALLET?');
+
+INSERT INTO category(category_id, category_name) VALUES (30537, 'WHAT\'S IT 2 U?');
+
+INSERT INTO category(category_id, category_name) VALUES (30538, 'WHAT\'S IT CALLED?');
+
+INSERT INTO category(category_id, category_name) VALUES (30539, 'WHAT\'S KILLING YOU?');
+
+INSERT INTO category(category_id, category_name) VALUES (30540, 'WHAT\'S MISSING?');
+
+INSERT INTO category(category_id, category_name) VALUES (30541, 'WHAT\'S MY AIRLINE?');
+
+INSERT INTO category(category_id, category_name) VALUES (30542, 'WHAT\'S MY LINE');
+
+INSERT INTO category(category_id, category_name) VALUES (30543, 'WHAT\'S MY LINE?');
+
+INSERT INTO category(category_id, category_name) VALUES (30544, 'WHAT\'S MY LION?');
+
+INSERT INTO category(category_id, category_name) VALUES (30545, 'WHAT\'S NEW IN ARCHAEOLOGY');
+
+INSERT INTO category(category_id, category_name) VALUES (30546, 'WHAT\'S NEW?');
+
+INSERT INTO category(category_id, category_name) VALUES (30547, 'WHAT\'S NEXT ON THE LIST?');
+
+INSERT INTO category(category_id, category_name) VALUES (30548, 'WHAT\'S NEXT?');
+
+INSERT INTO category(category_id, category_name) VALUES (30549, 'WHAT\'S NOT TO LICHEN?');
+
+INSERT INTO category(category_id, category_name) VALUES (30550, 'WHAT\'S ON "TAP"?');
+
+INSERT INTO category(category_id, category_name) VALUES (30551, 'WHAT\'S ON CABLE?');
+
+INSERT INTO category(category_id, category_name) VALUES (30552, 'WHAT\'S ON THE TUBE?');
+
+INSERT INTO category(category_id, category_name) VALUES (30553, 'WHAT\'S ON TV TONIGHT?');
+
+INSERT INTO category(category_id, category_name) VALUES (30554, 'WHAT\'S ON TV, KIDS?');
+
+INSERT INTO category(category_id, category_name) VALUES (30555, 'WHAT\'S ON TV?');
+
+INSERT INTO category(category_id, category_name) VALUES (30556, 'WHAT\'S ON YOUR HEAD?');
+
+INSERT INTO category(category_id, category_name) VALUES (30557, 'WHAT\'S ON YOUR iPOD?');
+
+INSERT INTO category(category_id, category_name) VALUES (30558, 'WHAT\'S OPERA, DOC?');
+
+INSERT INTO category(category_id, category_name) VALUES (30559, 'WHAT\'S THAT CALLED?');
+
+INSERT INTO category(category_id, category_name) VALUES (30560, 'WHAT\'S THAT NUMBER?');
+
+INSERT INTO category(category_id, category_name) VALUES (30561, 'WHAT\'S THAT ON TOP OF YOUR HEAD?');
+
+INSERT INTO category(category_id, category_name) VALUES (30562, 'WHAT\'S THAT ON YOUR HEAD?');
+
+INSERT INTO category(category_id, category_name) VALUES (30563, 'WHAT\'S THAT SONG?');
+
+INSERT INTO category(category_id, category_name) VALUES (30564, 'WHAT\'S THAT SOUND?');
+
+INSERT INTO category(category_id, category_name) VALUES (30565, 'WHAT\'S THAT SUPPOSED TO BE?');
+
+INSERT INTO category(category_id, category_name) VALUES (30566, 'WHAT\'S THAT THING CALLED?');
+
+INSERT INTO category(category_id, category_name) VALUES (30567, 'WHAT\'S THAT WAR?');
+
+INSERT INTO category(category_id, category_name) VALUES (30568, 'WHAT\'S THAT WEBSITE?');
+
