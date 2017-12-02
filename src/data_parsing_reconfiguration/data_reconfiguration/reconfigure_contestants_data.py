@@ -1,8 +1,8 @@
-from sql_generator import contestant
-from sql_generator import occupation
+from sql_generator import Contestant
+from sql_generator import Occupation
+from data_reconfiguration import constants
 from copy import deepcopy
 import pandas as pd
-import constants
 
 
 def find_contestant_id_from_dup_records(contestant_id):
@@ -74,8 +74,9 @@ def generate_contestant_and_occupation(df_contestant, input_config, output_confi
 
         if occupation_name:
             occupation_name = (occupation_name.strip()).replace("'", "\\'")
-            contestant_occupation = occupation.Occupation(occupation_id, occupation_name,
-                                                          file_location=occupation_sql_location)
+            contestant_occupation = Occupation(occupation_id,
+                                               occupation_name,
+                                               file_location=occupation_sql_location)
             contestant_occupation.generate_sql(entity_definition=occupation_entity_definition)
 
         # Generate SQL for contestant
@@ -90,23 +91,23 @@ def generate_contestant_and_occupation(df_contestant, input_config, output_confi
             country_or_state = (csv_player['hometown_state'].strip()).replace("'", "\\'")
 
             if occupation_name:
-                player = contestant.Contestant(contestant_id=contestant_id,
-                                               first_name=first_name,
-                                               last_name=last_name,
-                                               home_city=home_city,
-                                               country_or_state=country_or_state,
-                                               occupation_id=occupation_id,
-                                               file_location=contestants_sql_location)
+                player = Contestant(contestant_id=contestant_id,
+                                    first_name=first_name,
+                                    last_name=last_name,
+                                    home_city=home_city,
+                                    country_or_state=country_or_state,
+                                    occupation_id=occupation_id,
+                                    file_location=contestants_sql_location)
                 player.generate_sql(entity_definition=contestant_entity_definition)
                 contestant_count += 1
             else:
-                player = contestant.Contestant(contestant_id=contestant_id,
-                                               first_name=first_name,
-                                               last_name=last_name,
-                                               home_city=home_city,
-                                               country_or_state=country_or_state,
-                                               occupation_id=None,
-                                               file_location=contestants_sql_location)
+                player = Contestant(contestant_id=contestant_id,
+                                    first_name=first_name,
+                                    last_name=last_name,
+                                    home_city=home_city,
+                                    country_or_state=country_or_state,
+                                    occupation_id=None,
+                                    file_location=contestants_sql_location)
                 player.generate_sql(entity_definition=contestant_entity_definition)
                 contestant_count += 1
 

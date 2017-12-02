@@ -1,6 +1,7 @@
-from sql_generator import question as game_question
-from sql_generator import category as game_question_category
-from sql_generator import correct_response
+from sql_generator import Question
+from sql_generator import Round
+from sql_generator import Category
+from sql_generator import CorrectResponse
 import pandas as pd
 
 
@@ -47,7 +48,7 @@ def generate_sql_statements(questions_df,
                                              right_on=['seat_location', 'game_id'])
 
     # collect correct responses for final round questions
-    final_round_questions_df = questions_trend_contestant_df.loc[questions_trend_contestant_df['round'] == game_question.Round.final.name]
+    final_round_questions_df = questions_trend_contestant_df.loc[questions_trend_contestant_df['round'] == Round.final.name]
     # find player associated with the seat location of the correct respondent of final round questions
     final_results_df = pd.merge(player_location_df,
                                 final_results_df,
@@ -89,9 +90,9 @@ def generate_categories(category_id, category_name, category_sql_location, categ
     """
     if category_name:
         category = (category_name.strip()).replace("'", "\\'")
-        question_category = game_question_category.Category(category_id,
-                                                            category,
-                                                            file_location=category_sql_location)
+        question_category = Category(category_id,
+                                     category,
+                                     file_location=category_sql_location)
         question_category.generate_sql(entity_definition=category_entity_definition)
 
 
@@ -167,11 +168,11 @@ def generate_questions(questions_trend_contestant_df,
                         questions_param['is_daily_double'] = 0
                     questions_param['question_index'] = question_row['question_index']
 
-                question = game_question.Question(**questions_param)
+                question = Question(**questions_param)
                 question.generate_sql(question_entity_definition)
 
                 # insert data for correct respondent to the question
-                if question_row['round'] == game_question.Round.final.name:
+                if question_row['round'] == Round.final.name:
                     # Final round questions can have multiple correct respondents.
                     # select those rows
                     question_game_id = question_row['game_id']
@@ -211,7 +212,7 @@ def generate_correct_respondent(contestant_id,
     @param correct_response_entity_definition: Entity definition of correct_response
     @return: None
     """
-    contestant_correct_response = correct_response.CorrectResponse(contestant_id,
-                                                                   question_id,
-                                                                   file_location=correct_response_sql_location)
+    contestant_correct_response = CorrectResponse(contestant_id,
+                                                  question_id,
+                                                  file_location=correct_response_sql_location)
     contestant_correct_response.generate_sql(entity_definition=correct_response_entity_definition)

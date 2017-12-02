@@ -1,5 +1,5 @@
-from sql_generator import game
-from sql_generator import contestant_location
+from sql_generator import Game
+from sql_generator import ContestantLocation
 
 
 def generate_game(df_contestant_loc, input_config, output_config):
@@ -27,9 +27,9 @@ def generate_game(df_contestant_loc, input_config, output_config):
     # generate sql for game
     for index, row in df_game.iterrows():
         game_counter += 1
-        episode = game.Game(game_id=row['game_id'],
-                            season_num=row['season'],
-                            file_location=game_sql_location)
+        episode = Game(game_id=row['game_id'],
+                       season_num=row['season'],
+                       file_location=game_sql_location)
         episode.generate_sql(game_entity_definition)
 
     return game_counter
@@ -61,12 +61,12 @@ def generate_contestant_location(df_contestant_loc, input_config, output_config,
     # generate sql for game
     for index, row in df_player_loc.iterrows():
         player_id = rc.find_contestant_id_from_dup_records(row['player_id'])
-        location = contestant_location.ContestantLocation(game_id=row['game_id'],
-                                                          contestant_id=player_id,
-                                                          seat_location=row['seat_location'].strip(),
-                                                          file_location=contestant_loc_sql_location)
+        location = ContestantLocation(game_id=row['game_id'],
+                                      contestant_id=player_id,
+                                      seat_location=row['seat_location'].strip(),
+                                      file_location=contestant_loc_sql_location)
         location.generate_sql(contestant_loc_entity_definition)
-        row['player_id'] = player_id
+        df_player_loc.set_value(index, 'player_id', player_id)
         loc_counter += 1
 
     return loc_counter, df_player_loc
