@@ -179,8 +179,6 @@ def generate_questions(questions_trend_contestant_df,
                         final_question_correct_responses_df.loc[final_question_correct_responses_df['game_id']
                                                                 == question_game_id]
 
-                    print('i am in the final round with', len(final_round_correct_respondents), 'for ',
-                          question_row['question_text'], " and game = ", question_row['game_id'])
                     for final_round_correct_responses_counter, final_round_responses_row \
                             in final_round_correct_respondents.iterrows():
                         if pd.notnull(final_round_responses_row['player_id_y']):

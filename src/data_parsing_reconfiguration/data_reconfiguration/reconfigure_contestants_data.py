@@ -2,6 +2,7 @@ from sql_generator import contestant
 from sql_generator import occupation
 from copy import deepcopy
 import pandas as pd
+import constants
 
 
 def find_contestant_id_from_dup_records(contestant_id):
@@ -11,23 +12,24 @@ def find_contestant_id_from_dup_records(contestant_id):
     @param contestant_id: Player id retrieved from the csv
     @return: contestant_id used for database insertion.
     """
-    if any(df_non_duplicate_contestants['player_id'] == contestant_id):
-        # if the contestant_id is present in the non duplicate oes
+    if any(df_non_duplicate_contestants[constants.PLAYER_ID] == contestant_id):
+        # if the contestant_id is present in the non duplicate ones
         return contestant_id
     else:
-        if any(df_duplicate_contestants['player_id'] == contestant_id):
+        if any(df_duplicate_contestants[constants.PLAYER_ID] == contestant_id):
             # check if duplicate records has the player id
-            temp_contestant_df = df_duplicate_contestants.loc[df_duplicate_contestants['player_id']
+            temp_contestant_df = df_duplicate_contestants.loc[df_duplicate_contestants[constants.PLAYER_ID]
                                                               == contestant_id]            
             first_row = temp_contestant_df.head(1)
 
             # find the appropriate contestant id based on the other parameters
             non_dup_contestants = df_non_duplicate_contestants
-            non_duplicated_player_df_with_criteria = pd.merge(non_dup_contestants, first_row, how='inner',
-                                                              on=['player_first_name', 'player_last_name',
-                                                                  'hometown_city', 'hometown_state', 'occupation'])
+            non_duplicated_player_df_with_criteria = pd.merge(non_dup_contestants,
+                                                              first_row,
+                                                              how='inner',
+                                                              on=constants.NON_DUPLICATED_PLAYER_CRITERIA_COLUMNS)
             if len(non_duplicated_player_df_with_criteria) == 1:
-                return non_duplicated_player_df_with_criteria['player_id_x'].item()
+                return non_duplicated_player_df_with_criteria[constants.PLAYER_ID_X].item()
         return ''
 
 
@@ -49,20 +51,21 @@ def generate_contestant_and_occupation(df_contestant, input_config, output_confi
 
     # get entity definition
     contestant_entity_definition = input_config.get('entities', 'contestant')
-    occupation_entity_definition = input_config.get('entities', 'occupation')
+    occupation_entity_definition = input_config.get('entities', constants.OCCUPATION)
 
     # remove duplicate player_id rows and clean data
     global df_duplicate_contestants
     df_contestant = df_contestant.fillna('')
     df_duplicate_contestants = deepcopy(df_contestant)
-    df_contestant = df_contestant.drop_duplicates(subset=['player_id'], keep='first')
-    df_contestant = df_contestant.drop_duplicates(df_contestant.columns.difference(['player_id']),
+    df_contestant = df_contestant.drop_duplicates(subset=[constants.PLAYER_ID],
+                                                  keep='first')
+    df_contestant = df_contestant.drop_duplicates(df_contestant.columns.difference([constants.PLAYER_ID]),
                                                   keep='first')
     global df_non_duplicate_contestants
     df_non_duplicate_contestants = df_contestant
 
     # Generate group of customers with the same occupation.
-    contestants_groups = df_contestant.groupby(df_contestant['occupation'])
+    contestants_groups = df_contestant.groupby(df_contestant[constants.OCCUPATION])
     occupation_id = 0
     contestant_count = 0
     for occupation_name, group in contestants_groups:
@@ -79,7 +82,7 @@ def generate_contestant_and_occupation(df_contestant, input_config, output_confi
         no_of_contestants = len(group)
         for index in range(no_of_contestants):
             csv_player = group.iloc[index]
-            contestant_id = csv_player['player_id']
+            contestant_id = csv_player[constants.PLAYER_ID]
 
             first_name = (csv_player['player_first_name'].strip()).replace("'", "\\'")
             last_name = (csv_player['player_last_name'].strip()).replace("'", "\\'")
