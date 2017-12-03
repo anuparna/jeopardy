@@ -2,6 +2,9 @@
 
 A web-application built on Jeopardy!, a popular American game show.<br/> The project presents a web-interface to search questions based on the game-show.
 
+The website is available at : http://saab.ischool.utexas.edu/jeopardy/
+
+
 There are 3 questions we focus on:
 
 **1. Which jeopardy questions were asked during a final round?<br/>
@@ -22,6 +25,8 @@ Entity Relationship Diagram is avalable <a href="https://raw.githubusercontent.c
 ![System Architecture](https://raw.githubusercontent.com/anuparna/jeopardy/master/docs/system_architecture.jpg)
 
 ## Usage
+
+```requirements.txt``` specify the Python libraries required for the execution of the Python parser to collect data from CSV files.
 
 The code for data parsing/configuration is present in ```jeopardy/src/data_parsing_reconfiguration``` <br/>
 The code for the web-page is present in ```jeopardy/public_html```<br/>
