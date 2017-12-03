@@ -10,4 +10,7 @@
 	else if($question_asked == 'BR'){
 		
 	}
+	else{
+	   print("Please select an option in the previous page to proceed further.");
+	}
 ?>

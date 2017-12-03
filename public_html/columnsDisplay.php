@@ -27,7 +27,7 @@
 			</tr>
 			<tr>
 				<td  align="center">
-					<input type="submit" align="center" value="Clear" class="search"/>
+					<input type="reset" align="center" value="Clear" class="search"/>
 					<input type="submit" align="center" value="View Results" class="search"/>
 				</td>
 			</tr>
