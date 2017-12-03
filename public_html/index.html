@@ -1,8 +1,42 @@
 <html>
-    <head>
-    </head>
-
-    <body>
-        <h1>What is Jeopardy?</h1>
-    </body>
+	<head>
+		<title>Jeopardy - Game database</title> 
+		<link rel="stylesheet" href="css/layout.css"/> 
+	</head>
+	<body>
+		
+		<form name="index" method="POST" action="columnsDisplay.php">
+		<table class="box">
+			<tr>
+				<td>
+					<center>
+						<br/><br/>
+						<img src="images/jeopardy_logo.jpg" height="30%" width="70%"/>
+						<h4>Select a question you want to find out and press GO! </h4>
+						<br/>
+					</center>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="radio" name="choice" value="FR"><b> Which Jeopardy questions were asked during a final round ?</b><br/><br/>
+					<input type="radio" name="choice" value="KJ"><b> Which Jeopardy questions were answered correctly by Ken Jennings ?</b><br/><br/>
+					<input type="radio" name="choice" value="BR"><b> Which Jeopardy questions were answered correctly by Brad Rutter ?</b><br/><br/>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<br/><h5>NOTE: <i>Ken Jennings</i> is the contestant with the longest winning streak and <i>Brad Rutter</i> is the contestant with the highest earnings.</h5>
+				</td>
+			</tr>
+			<tr>
+				<td  align="center">
+					<input type="submit" align="center" value="Clear" class="search"/>
+					<input type="submit" align="center" value="GO" class="search"/>
+				</td>
+			</tr>
+			
+		</table>
+		</form>
+	</body>
 </html>
