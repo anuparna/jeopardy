@@ -1,0 +1,38 @@
+body{
+    background-color:wheat;
+    overflow: auto;
+}
+th, td {
+    padding: 5px;
+}	
+table{
+    border-collapse: collapse;
+}
+input.search {
+    width: 10em;  height: 2em;
+}
+.box {
+    width:50%;
+    height:15%;
+    position:fixed;
+    margin-left:-275px; 
+    margin-top:-300px; 
+    top:50%;
+    left:50%;
+}
+.result_box {
+    width:70%;
+    height:55%;
+    border-spacing: 0px;
+    position:fixed;
+    margin-left:-400px; 
+    margin-top:-80px; 
+    top:50%;
+    left:50%;
+    cellpadding:0px;
+}
+.scroller {
+    overflow: scroll;
+    padding: 2px;
+    height: 100%;
+}
