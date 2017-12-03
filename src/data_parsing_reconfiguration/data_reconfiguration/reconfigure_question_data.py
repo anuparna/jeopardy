@@ -41,6 +41,8 @@ def generate_sql_statements(questions_df,
                                   trend_df,
                                   how='outer',
                                   on=['game_id', 'row', 'column', 'round'])
+
+    # find the correct player based on seat location - for rounds J and DJ
     questions_trend_contestant_df = pd.merge(questions_trend_df,
                                              player_location_df,
                                              how='outer',
@@ -49,6 +51,7 @@ def generate_sql_statements(questions_df,
 
     # collect correct responses for final round questions
     final_round_questions_df = questions_trend_contestant_df.loc[questions_trend_contestant_df['round'] == Round.final.name]
+
     # find player associated with the seat location of the correct respondent of final round questions
     final_results_df = pd.merge(player_location_df,
                                 final_results_df,
@@ -56,12 +59,12 @@ def generate_sql_statements(questions_df,
                                 left_on=['seat_location', 'game_id'],
                                 right_on=['position', 'game_id'])
     final_results_df = final_results_df.loc[final_results_df['correct'] == True] # collect only correct respondents
-    # find matches
+
+    # find matches between final-round games and final results
     final_question_correct_responses_df = pd.merge(final_round_questions_df,
                                                    final_results_df,
                                                    how='outer',
                                                    on=['game_id'])
-
 
     # generate SQL files
     no_of_questions, no_of_question_categories, no_of_correct_responses \
