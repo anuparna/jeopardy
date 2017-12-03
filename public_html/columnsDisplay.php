@@ -2,6 +2,7 @@
 	<head>
 		<title>Jeopardy - Game database</title> 
 		<link rel="stylesheet" href="css/layout.css"/> 
+		<script src="js/navigation.js"></script>
 	</head>
 	<body>
 		
@@ -29,6 +30,7 @@
 				<td  align="center">
 					<input type="reset" align="center" value="Clear" class="search"/>
 					<input type="submit" align="center" value="View Results" class="search"/>
+					<input type="button" value="Back" name="back" onclick="goBack()" class="search"/>
 				</td>
 			</tr>
 			

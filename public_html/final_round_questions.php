@@ -28,6 +28,7 @@ SQL;
 <head> 
 	<title>Jeopardy - Game database</title> 
 	<link rel="stylesheet" href="css/layout.css"/> 
+	<script src="js/navigation.js"></script>
 </head>
 <body>
 	<table class="box">
@@ -90,7 +91,7 @@ SQL;
 				</div>	
 				<br/>
 				<center>
-					<input type="button" value="Back to Home" name="back_To_Home"/>
+					<input type="button" value="Back" name="back" onclick="goBack()" class="search"/>
 				</center>						
 			</td>
 		</tr>
