@@ -1,3 +1,4 @@
+from data_reconfiguration import constants
 from sql_generator import Game
 from sql_generator import ContestantLocation
 
@@ -13,22 +14,22 @@ def generate_game(df_contestant_loc, input_config, output_config):
     game_counter = 0
 
     # get location of output files
-    game_sql_location = output_config.get('files', 'game')
+    game_sql_location = output_config.get('files', constants.GAME)
     # reset the sql files
     open(game_sql_location, 'w').close()
 
     # get entity definition
-    game_entity_definition = input_config.get('entities', 'game')
+    game_entity_definition = input_config.get('entities', constants.GAME)
 
     # select columns required for game and clean data
-    df_game = df_contestant_loc[['game_id', 'season']]
+    df_game = df_contestant_loc[[constants.GAME_ID, constants.SEASON]]
     df_game = df_game.drop_duplicates(keep='first')
 
     # generate sql for game
     for index, row in df_game.iterrows():
         game_counter += 1
-        episode = Game(game_id=row['game_id'],
-                       season_num=row['season'],
+        episode = Game(game_id=row[constants.GAME_ID],
+                       season_num=row[constants.SEASON],
                        file_location=game_sql_location)
         episode.generate_sql(game_entity_definition)
 
@@ -48,25 +49,25 @@ def generate_contestant_location(df_contestant_loc, input_config, output_config,
     loc_counter = 0
 
     # get location of output files
-    contestant_loc_sql_location = output_config.get('files', 'contestant_location')
+    contestant_loc_sql_location = output_config.get('files', constants.CONTESTANT_LOCATION)
     open(contestant_loc_sql_location, 'w').close()
 
     # get entity definition
-    contestant_loc_entity_definition = input_config.get('entities', 'contestant_location')
+    contestant_loc_entity_definition = input_config.get('entities', constants.CONTESTANT_LOCATION)
 
     # select columns required for game and clean data
-    df_player_loc = df_contestant_loc[['game_id', 'player_id', 'seat_location']]
+    df_player_loc = df_contestant_loc[[constants.GAME_ID, constants.PLAYER_ID, constants.SEAT_LOCATION]]
     df_player_loc = df_player_loc.drop_duplicates(keep='first')
 
     # generate sql for game
     for index, row in df_player_loc.iterrows():
-        player_id = rc.find_contestant_id_from_dup_records(row['player_id'])
-        location = ContestantLocation(game_id=row['game_id'],
+        player_id = rc.find_contestant_id_from_dup_records(row[constants.PLAYER_ID])
+        location = ContestantLocation(game_id=row[constants.GAME_ID],
                                       contestant_id=player_id,
-                                      seat_location=row['seat_location'].strip(),
+                                      seat_location=row[constants.SEAT_LOCATION].strip(),
                                       file_location=contestant_loc_sql_location)
         location.generate_sql(contestant_loc_entity_definition)
-        df_player_loc.set_value(index, 'player_id', player_id)
+        df_player_loc.set_value(index, constants.PLAYER_ID, player_id)
         loc_counter += 1
 
     return loc_counter, df_player_loc

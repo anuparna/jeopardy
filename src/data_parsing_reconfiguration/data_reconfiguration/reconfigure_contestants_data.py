@@ -42,15 +42,15 @@ def generate_contestant_and_occupation(df_contestant, input_config, output_confi
     """
 
     # get location of output files
-    contestants_sql_location = output_config.get('files', 'contestants')
-    occupation_sql_location = output_config.get('files', 'occupations')
+    contestants_sql_location = output_config.get('files', constants.CONTESTANTS)
+    occupation_sql_location = output_config.get('files', constants.OCCUPATIONS)
 
     # reset the sql files
     open(contestants_sql_location, 'w').close()
     open(occupation_sql_location, 'w').close()
 
     # get entity definition
-    contestant_entity_definition = input_config.get('entities', 'contestant')
+    contestant_entity_definition = input_config.get('entities', constants.CONTESTANT)
     occupation_entity_definition = input_config.get('entities', constants.OCCUPATION)
 
     # remove duplicate player_id rows and clean data
@@ -85,10 +85,10 @@ def generate_contestant_and_occupation(df_contestant, input_config, output_confi
             csv_player = group.iloc[index]
             contestant_id = csv_player[constants.PLAYER_ID]
 
-            first_name = (csv_player['player_first_name'].strip()).replace("'", "\\'")
-            last_name = (csv_player['player_last_name'].strip()).replace("'", "\\'")
-            home_city = (csv_player['hometown_city'].strip()).replace("'", "\\'")
-            country_or_state = (csv_player['hometown_state'].strip()).replace("'", "\\'")
+            first_name = (csv_player[constants.PLAYER_FIRST_NAME].strip()).replace("'", "\\'")
+            last_name = (csv_player[constants.PLAYER_LAST_NAME].strip()).replace("'", "\\'")
+            home_city = (csv_player[constants.HOMETOWN_CITY].strip()).replace("'", "\\'")
+            country_or_state = (csv_player[constants.HOMETOWN_STATE].strip()).replace("'", "\\'")
 
             if occupation_name:
                 player = Contestant(contestant_id=contestant_id,

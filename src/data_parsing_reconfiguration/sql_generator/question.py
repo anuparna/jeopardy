@@ -3,9 +3,9 @@ from enum import Enum
 
 
 class Round(Enum):
-    J = 'Jeopardy'
-    DJ = 'Double Jeopardy'
-    final = 'Final'
+    J = constants.JEOPARDY
+    DJ = constants.DOUBLE_JEOPARDY
+    final = constants.FINAL
 
 
 class Question(object):
