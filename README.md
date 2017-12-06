@@ -2,8 +2,8 @@
 
 A web-application built on Jeopardy!, a popular American game show.<br/> The project presents a web-interface to search questions based on the game-show.
 
-The website is available at : http://saab.ischool.utexas.edu/jeopardy/
-
+Website : http://saab.ischool.utexas.edu/jeopardy/
+Project Poster: <a href="https://raw.githubusercontent.com/anuparna/jeopardy/master/docs/Poster.pdf">Poster</a>
 
 There are 3 questions we focus on:
 
@@ -16,6 +16,13 @@ NOTE: Ken Jennings is a contestant with a longest winning streak and Brad Rutter
 ## Dataset
 Dataset presents Jeopardy! games from 18 different seasons starting from Season 16 to Season 33. <br/>
 There are around ~ 230 games in each season. <br/>
+
+
+No. of contestants: 7,855
+No. of questions: 225,347
+No. of question categories: 32,061
+
+
 The dataset consists of 5 CSV files available at <a href="https://github.com/anuparna/jeopardy/tree/master/dataset">here</a>.<br/>
 Path: ```jeopardy/dataset```
 
