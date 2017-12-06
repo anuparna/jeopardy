@@ -3,14 +3,15 @@
 A web-application built on Jeopardy!, a popular American game show.<br/> The project presents a web-interface to search questions based on the game-show.
 
 Website : http://saab.ischool.utexas.edu/jeopardy/
+
 Project Poster: <a href="https://raw.githubusercontent.com/anuparna/jeopardy/master/docs/Poster.pdf">Poster</a>
 
 There are 3 questions we focus on:
-
-**1. Which jeopardy questions were asked during a final round?<br/>
+<b>
+1. Which jeopardy questions were asked during a final round?<br/>
 2. Which jeopardy questions were answered by Ken Jennings? <br/>
-3. Which jeopardy questions were answered by Brad Rutter?**<br/>
-
+3. Which jeopardy questions were answered by Brad Rutter?
+</b>
 NOTE: Ken Jennings is a contestant with a longest winning streak and Brad Rutter is a contestant with a highest earning. 
 
 ## Dataset
@@ -19,7 +20,9 @@ There are around ~ 230 games in each season. <br/>
 
 
 No. of contestants: 7,855
+
 No. of questions: 225,347
+
 No. of question categories: 32,061
 
 
