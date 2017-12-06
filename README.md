@@ -11,7 +11,7 @@ There are 3 questions we focus on:
 1. Which jeopardy questions were asked during a final round?<br/>
 2. Which jeopardy questions were answered by Ken Jennings? <br/>
 3. Which jeopardy questions were answered by Brad Rutter?
-</b>
+
 NOTE: Ken Jennings is a contestant with a longest winning streak and Brad Rutter is a contestant with a highest earning. 
 
 ## Dataset
