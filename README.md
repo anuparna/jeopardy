@@ -7,12 +7,10 @@ Website : http://saab.ischool.utexas.edu/jeopardy/
 Project Poster: <a href="https://raw.githubusercontent.com/anuparna/jeopardy/master/docs/Poster.pdf">Poster</a>
 
 There are 3 questions we focus on:
-<b>
-1. Which jeopardy questions were asked during a final round?<br/>
-2. Which jeopardy questions were answered by Ken Jennings? <br/>
-3. Which jeopardy questions were answered by Brad Rutter?
 
-</b>
+**1. Which jeopardy questions were asked during a final round?<br/>**
+**2. Which jeopardy questions were answered by Ken Jennings? <br/>**
+**3. Which jeopardy questions were answered by Brad Rutter?**
 
 NOTE: Ken Jennings is a contestant with a longest winning streak and Brad Rutter is a contestant with a highest earning. 
 
